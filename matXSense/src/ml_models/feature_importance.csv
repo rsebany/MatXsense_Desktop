@@ -1,0 +1,16 @@
+feature,importance
+Corrosion_Level_percent,0.6974430605069689
+Material_Type_Polymer_Composite,0.11548304598292942
+Stress_Humidity,0.04925394177133159
+Fatigue_Accumulation_au,0.018990560779577073
+Temp_Humidity,0.018249718511007675
+Material_Type_Aluminum_Alloy,0.013433706616188423
+DayOfWeek,0.009969375592658588
+Corrosion_Level_percent_lag1h,0.007215282592996349
+Fatigue_Accumulation_au_lag1h,0.006466312750472549
+Material_Type_Steel,0.005537508749626609
+Crack_Propagation_mm,0.005537461425333213
+Crack_Propagation_mm_lag1h,0.0048107400617346105
+Temperature_C,0.004688266211633758
+Strain_microstrain,0.003751540214462878
+Temperature_C_change,0.0034110417082209225

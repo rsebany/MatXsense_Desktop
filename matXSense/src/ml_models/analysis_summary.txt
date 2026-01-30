@@ -1,0 +1,55 @@
+
+BRIDGE MATERIAL DEGRADATION MONITORING SYSTEM
+============================================
+Analysis Date: 2026-01-30 00:24:10
+Dataset: Digital Twin Bridge Structural Health Monitoring
+
+DATA SUMMARY
+------------
+Original Dataset Size: 43200 rows × 61 columns
+Processed Dataset Size: 43200 rows × 84 columns
+Time Range: 2023-01-01 00:00:00 to 2023-01-30 23:59:00
+Materials Monitored: Steel, Concrete, Polymer_Composite, Aluminum_Alloy
+Total Samples: 43,200
+
+MODELING SUMMARY
+----------------
+Features Used: 38
+Training Samples: 28,098
+Testing Samples: 15,102
+Train-Test Split: 65.0% / 35.0%
+
+MODEL PERFORMANCE
+-----------------
+Best RUL Model: LightGBM
+  • R² Score: 0.6476
+  • RMSE: 16.2 years
+  • MAE: 6.0 years
+
+Best Risk Model: RandomForest
+  • Accuracy: 0.9460
+  • AUC: 0.9880
+  • F1-Score: 0.9675
+
+MATERIAL DISTRIBUTION
+---------------------
+• Steel: 17,179 samples (39.8%)
+• Concrete: 15,102 samples (35.0%)
+• Polymer_Composite: 6,558 samples (15.2%)
+• Aluminum_Alloy: 4,361 samples (10.1%)
+
+HEALTH STATUS DISTRIBUTION
+--------------------------
+• Critical: 35,939 samples (83.2%)
+• Excellent: 4,562 samples (10.6%)
+• Good: 1,500 samples (3.5%)
+• Fair: 859 samples (2.0%)
+• Poor: 340 samples (0.8%)
+
+TOP 5 FEATURES FOR RUL PREDICTION
+---------------------------------
+11. Corrosion_Level_percent: 0.6974
+39. Material_Type_Polymer_Composite: 0.1155
+6. Stress_Humidity: 0.0493
+3. Fatigue_Accumulation_au: 0.0190
+26. Temp_Humidity: 0.0182

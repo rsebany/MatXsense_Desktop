@@ -1,0 +1,41 @@
+{
+  "regression_models": {
+    "RandomForest": {
+      "R\u00b2": 0.6081491709438845,
+      "RMSE": 149480.96753394464,
+      "MAE": 57059.24477995002
+    },
+    "XGBoost": {
+      "R\u00b2": 0.6330880057251074,
+      "RMSE": 144646.0137985612,
+      "MAE": 54412.11089805686
+    },
+    "LightGBM": {
+      "R\u00b2": 0.6476040412650308,
+      "RMSE": 141755.84491403628,
+      "MAE": 52754.86752953771
+    }
+  },
+  "classification_models": {
+    "RandomForest": {
+      "Accuracy": 0.9459674215335717,
+      "AUC": 0.9880100356690708,
+      "F1": 0.9674978092886163
+    },
+    "XGBoost": {
+      "Accuracy": 0.9486160773407496,
+      "AUC": 0.9842072373584826,
+      "F1": 0.9691426753618578
+    },
+    "LightGBM": {
+      "Accuracy": 0.9481525625744934,
+      "AUC": 0.9876328060390053,
+      "F1": 0.968853176339552
+    }
+  },
+  "best_reg_model": "LightGBM",
+  "best_clf_model": "RandomForest",
+  "feature_count": 38,
+  "train_samples": 28098,
+  "test_samples": 15102
+}

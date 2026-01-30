@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>MatXSense – Material Degradation Monitoring</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Login View -->
+    <div id="view-login" class="view active">
+      <div class="login-wrap">
+        <div class="login-card">
+          <div class="logo-icon"><img src="/static/assets/matxsense.png" alt="MatXSense" class="logo-img"></div>
+         <!-- <h1>MatXSense</h1>-->
+          <p class="tagline">AI-powered material health monitoring</p>
+          <form id="login-form">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" name="username" placeholder="admin" autocomplete="username" required>
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="password" placeholder="••••••••" autocomplete="current-password" required>
+            <button type="submit" class="btn-primary">Sign in</button>
+            <p class="error" id="login-error"></p>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Dashboard View -->
+    <div id="view-dashboard" class="view">
+      <!-- Realistic mode banner -->
+      <div class="realistic-banner" id="realistic-banner" style="display: none;">
+        <i class="fas fa-check-circle"></i>
+        <span>Realistic mode: real weather from your location + material-specific thresholds</span>
+      </div>
+
+      <div class="header">
+        <div class="logo">
+          <div class="logo-icon"><img src="/static/assets/matxsense.png" alt="MatXSense" class="logo-img"></div>
+          <div>
+            <h1>MatXSense</h1>
+            <span style="color: var(--text-muted); font-size: 14px;">Material Degradation Monitoring</span>
+          </div>
+        </div>
+        <div class="status">
+          <div class="status-dot"></div>
+          <span>Live Data Streaming</span>
+          <span class="api-status" id="api-status"><i class="fas fa-server"></i> API: Connected</span>
+          <div class="user-menu">
+            <span id="header-username"></span>
+            <button type="button" class="btn-logout" id="btn-logout">Logout</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-layout">
+        <!-- Sidebar: see sidebar.html for fragment source -->
+        <aside id="app-sidebar" class="app-sidebar" role="navigation" aria-label="Main navigation">
+          <button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+            <i class="fas fa-bars"></i>
+          </button>
+          <nav class="sidebar-nav">
+            <ul class="sidebar-menu">
+              <li><a href="#section-summary" class="sidebar-link"><i class="fas fa-th-large"></i> Summary</a></li>
+              <li><a href="#section-sensors" class="sidebar-link"><i class="fas fa-microchip"></i> Live Sensors</a></li>
+              <li><a href="#section-health" class="sidebar-link"><i class="fas fa-heartbeat"></i> Health Score</a></li>
+              <li><a href="#section-timeline" class="sidebar-link"><i class="fas fa-chart-line"></i> Degradation Timeline</a></li>
+              <li><a href="#section-rul" class="sidebar-link"><i class="fas fa-calendar-alt"></i> RUL Estimate</a></li>
+              <li><a href="#section-risk" class="sidebar-link"><i class="fas fa-exclamation-triangle"></i> Risk Level</a></li>
+              <li><a href="#section-alerts" class="sidebar-link"><i class="fas fa-bell"></i> Active Alerts</a></li>
+              <li><a href="#section-controls" class="sidebar-link"><i class="fas fa-sliders-h"></i> Controls</a></li>
+            </ul>
+            <div class="sidebar-footer">
+              <a href="#section-summary" class="sidebar-link small"><i class="fas fa-home"></i> Back to top</a>
+            </div>
+          </nav>
+        </aside>
+
+        <main class="dashboard-main">
+      <div class="summary-cards" id="section-summary">
+        <div class="summary-card">
+          <span class="summary-card-title">Active Sensors</span>
+          <div class="summary-card-value summary-value-green">
+            <span id="summary-active-value">—</span><span class="summary-card-total" id="summary-active-total"> / 4</span>
+          </div>
+        </div>
+        <div class="summary-card">
+          <span class="summary-card-title">Critical Alerts</span>
+          <div class="summary-card-value summary-value-red">
+            <span id="summary-critical-value">—</span>
+            <span class="summary-card-trend summary-trend-red" id="summary-critical-trend"></span>
+          </div>
+        </div>
+        <div class="summary-card">
+          <span class="summary-card-title">Avg. Remaining Life</span>
+          <div class="summary-card-value summary-value-amber">
+            <span id="summary-rul-value">—</span><span class="summary-card-unit"> days</span>
+          </div>
+        </div>
+        <div class="summary-card">
+          <span class="summary-card-title">AI Prediction Accuracy</span>
+          <div class="summary-card-value summary-value-green">
+            <span id="summary-accuracy-value">—</span><span class="summary-card-unit">%</span>
+            <span class="summary-card-trend summary-trend-green" id="summary-accuracy-trend"></span>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-grid">
+        <!-- Sensor Grid -->
+        <div class="card sensor-grid" id="section-sensors">
+          <div class="card-header sensor-header">
+            <div>
+              <h2 class="card-title">Live Sensor Grid</h2>
+              <span class="weather-source" id="weather-source"><i class="fas fa-sync-alt"></i> Simulated data</span>
+            </div>
+            <div class="location-weather-control">
+              <button type="button" class="btn-location" id="btn-use-location" title="Use your location for real temperature and humidity">
+                <i class="fas fa-location-crosshairs"></i> Use my location
+              </button>
+              <span class="location-status" id="location-status"></span>
+            </div>
+          </div>
+          <div class="sensors-container">
+            <div class="sensor-item">
+              <div class="sensor-name"><i class="fas fa-thermometer-half"></i> Temperature</div>
+              <div class="sensor-value" id="temp-value">—</div>
+              <div class="sensor-status status-good" id="temp-status">—</div>
+              <div class="sensor-meta" id="temp-meta">Source: — · Updated: —</div>
+            </div>
+            <div class="sensor-item">
+              <div class="sensor-name"><i class="fas fa-tint"></i> Humidity</div>
+              <div class="sensor-value" id="humidity-value">—</div>
+              <div class="sensor-status status-good" id="humidity-status">—</div>
+              <div class="sensor-meta" id="humidity-meta">Source: — · Updated: —</div>
+            </div>
+            <div class="sensor-item">
+              <div class="sensor-name"><i class="fas fa-vial"></i> pH Level</div>
+              <div class="sensor-value" id="ph-value">—</div>
+              <div class="sensor-status status-good" id="ph-status">—</div>
+              <div class="sensor-meta" id="ph-meta">Source: Simulated (env) · Updated: —</div>
+            </div>
+            <div class="sensor-item">
+              <div class="sensor-name"><i class="fas fa-water"></i> Salinity</div>
+              <div class="sensor-value" id="salinity-value">—</div>
+              <div class="sensor-status status-good" id="salinity-status">—</div>
+              <div class="sensor-meta" id="salinity-meta">Source: Simulated (env) · Updated: —</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Health Score -->
+        <div class="card health-score">
+          <div class="card-header"><h2 class="card-title">Material Health</h2></div>
+          <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 120 120">
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#E74C3C" />
+                  <stop offset="50%" stop-color="#F39C12" />
+                  <stop offset="100%" stop-color="#2ECC71" />
+                </linearGradient>
+              </defs>
+              <circle class="gauge-circle gauge-bg" cx="60" cy="60" r="50"></circle>
+              <circle class="gauge-circle gauge-fill" cx="60" cy="60" r="50" id="gauge-fill"></circle>
+            </svg>
+            <div class="gauge-text">
+              <div class="gauge-value" id="health-value">—%</div>
+              <div class="gauge-label">Overall Health</div>
+            </div>
+          </div>
+          <div style="text-align: center; font-size: 14px; color: var(--text-muted);">LightGBM (RUL) · RF (Health) · sensor factors</div>
+        </div>
+
+        <!-- Degradation Timeline -->
+        <div class="card degradation-timeline" id="section-timeline">
+          <div class="card-header">
+            <h2 class="card-title">Degradation Timeline</h2>
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 5px;">
+                <div style="width: 12px; height: 12px; background: var(--accent); border-radius: 2px;"></div>
+                <span style="font-size: 14px;">Model prediction (LightGBM)</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 5px;">
+                <div style="width: 12px; height: 12px; background: var(--secondary); border-radius: 2px;"></div>
+                <span style="font-size: 14px;">Historical Data</span>
+              </div>
+            </div>
+          </div>
+          <p class="timeline-subtitle" id="timeline-subtitle">Loading…</p>
+          <div class="chart-container chart-loading" id="chart-container">
+            <div class="chart-loading-spinner" id="chart-loading-spinner" aria-hidden="true"><i class="fas fa-spinner fa-spin"></i></div>
+            <canvas id="degradationChart"></canvas>
+          </div>
+        </div>
+
+        <!-- RUL Estimate -->
+        <div class="card rul-estimate" id="section-rul">
+          <div class="card-header">
+            <h2 class="card-title">RUL Estimate</h2>
+            <i class="fas fa-calendar-alt" style="color: var(--secondary);"></i>
+          </div>
+          <div class="rul-display">
+            <div class="rul-label">Remaining Useful Life</div>
+            <div class="rul-value" id="rul-value">—</div>
+            <div class="rul-label">days</div>
+            <div class="rul-note">Until critical degradation threshold</div>
+          </div>
+        </div>
+
+        <!-- Risk Level -->
+        <div class="card risk-level" id="section-risk">
+          <div class="card-header">
+            <h2 class="card-title">Risk Level</h2>
+            <i class="fas fa-exclamation-triangle" style="color: var(--amber);"></i>
+          </div>
+          <div class="rul-display">
+            <div class="risk-bar-container">
+              <div class="risk-label"><span>Low</span><span>High</span></div>
+              <div class="risk-bar">
+                <div class="risk-fill" id="risk-fill"></div>
+              </div>
+              <div class="risk-value" id="risk-value">—% Risk</div>
+            </div>
+            <div style="margin-top: 20px; text-align: center; font-size: 14px; color: var(--text-muted);">Based on environmental stress</div>
+          </div>
+        </div>
+
+        <!-- Alerts -->
+        <div class="card alerts-panel" id="section-alerts">
+          <div class="card-header">
+            <h2 class="card-title">Active Alerts</h2>
+            <button type="button" class="secondary" id="generate-alert-btn"><i class="fas fa-bell"></i> Generate Alert</button>
+          </div>
+          <div class="alerts-container" id="alerts-container">
+            <!-- Alerts loaded from API with severity + acknowledge -->
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls" id="section-controls">
+          <div class="control-group">
+            <select id="material-select">
+              <option value="steel">Steel (Carbon)</option>
+              <option value="concrete">Concrete</option>
+              <option value="polymer">Polymer Composite</option>
+              <option value="aluminum">Aluminum Alloy</option>
+            </select>
+            <select id="environment-select">
+              <option value="coastal">Coastal Marine</option>
+              <option value="industrial">Industrial</option>
+              <option value="urban">Urban</option>
+              <option value="arctic">Arctic</option>
+            </select>
+            <button type="button" id="simulate-btn"><i class="fas fa-play"></i> Simulate 24 Hours</button>
+            <button type="button" id="add-material-info-btn" class="btn-popout"><i class="fas fa-plus-circle"></i> Add Material</button>
+          </div>
+          <div class="control-group">
+            <button type="button" class="secondary" id="download-report-btn"><i class="fas fa-download"></i> Download Report</button>
+            <button type="button" class="secondary" id="reset-btn"><i class="fas fa-redo"></i> Reset Simulation</button>
+          </div>
+        </div>
+      </div>
+
+        </main>
+      </div>
+
+      <div class="footer">
+        <p>MatXSense MVP v1.0 | Bridge digital twin | LightGBM RUL MAE <span class="xgb-mae" id="xgb-mae">—</span> years · RF Health AUC <span class="rf-auc" id="rf-auc">—</span> <span id="model-confidence"></span></p>
+        <p><span id="data-as-of">Data as of: —</span> · Live Sensor Simulation · Degradation Prediction · Dashboard Visualization</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add material info modal (popout) -->
+  <div id="material-info-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-popout" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+      <div class="modal-header">
+        <h2 id="modal-title"><i class="fas fa-flask"></i> Add Material</h2>
+        <button type="button" class="modal-close" id="material-info-modal-close" aria-label="Close">&times;</button>
+      </div>
+      <form id="material-info-form" class="modal-body">
+        <p class="modal-desc">Enter conditions so the model can predict health, RUL, and risk.</p>
+        <div class="modal-form-row">
+          <label for="modal-material">Material</label>
+          <select id="modal-material">
+            <option value="steel">Steel (Carbon)</option>
+            <option value="concrete">Concrete</option>
+            <option value="polymer">Polymer Composite</option>
+            <option value="aluminum">Aluminum Alloy</option>
+          </select>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-environment">Environment</label>
+          <select id="modal-environment">
+            <option value="coastal">Coastal Marine</option>
+            <option value="industrial">Industrial</option>
+            <option value="urban">Urban</option>
+            <option value="arctic">Arctic</option>
+          </select>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-temp">Temperature (°C)</label>
+          <input type="number" id="modal-temp" step="0.1" min="-10" max="60" value="22" required>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-humidity">Humidity (%)</label>
+          <input type="number" id="modal-humidity" step="0.1" min="0" max="100" value="60" required>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-ph">pH</label>
+          <input type="number" id="modal-ph" step="0.1" min="0" max="14" value="7.2" required>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-salinity">Salinity (ppt)</label>
+          <input type="number" id="modal-salinity" step="0.1" min="0" max="60" value="35" required>
+        </div>
+        <div class="modal-form-row">
+          <label for="modal-notes">Notes (optional)</label>
+          <textarea id="modal-notes" rows="2" placeholder="e.g. Coating applied, salt exposure increased…"></textarea>
+        </div>
+        <div class="modal-actions">
+          <button type="submit" class="btn-primary" id="material-info-submit"><i class="fas fa-calculator"></i> Predict</button>
+          <button type="button" class="secondary" id="material-info-modal-cancel" >Cancel</button>
+        </div>
+      </form>
+      <div id="material-info-result" class="modal-result" style="display: none;">
+        <h3>Prediction result</h3>
+        <div class="result-grid">
+          <div class="result-item"><span class="result-label">Health</span><span class="result-value" id="result-health">—%</span></div>
+          <div class="result-item"><span class="result-label">RUL</span><span class="result-value" id="result-rul">— days</span></div>
+          <div class="result-item"><span class="result-label">Risk</span><span class="result-value" id="result-risk">—%</span></div>
+        </div>
+        <p class="result-message" id="result-message"></p>
+        <div class="modal-actions">
+          <button type="button" class="btn-primary" id="material-info-apply-btn"><i class="fas fa-check"></i> Apply to dashboard</button>
+          <button type="button" class="secondary" id="material-info-close-result">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/scripts.js"></script>
+</body>
+</html>

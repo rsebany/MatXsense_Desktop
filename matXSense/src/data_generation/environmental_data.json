@@ -1,0 +1,5056 @@
+{
+  "metadata": {
+    "start_date": "2024-01-01",
+    "num_days": 30,
+    "readings_per_day": 24,
+    "total_readings": 720,
+    "parameters": [
+      "temperature_celsius",
+      "humidity_percent",
+      "pH",
+      "salinity_psu"
+    ]
+  },
+  "data": [
+    {
+      "timestamp": "2024-01-01 00:00:00",
+      "temperature_celsius": 19.62,
+      "humidity_percent": 89.06,
+      "pH": 7.37,
+      "salinity_psu": 35.71
+    },
+    {
+      "timestamp": "2024-01-01 01:00:00",
+      "temperature_celsius": 19.25,
+      "humidity_percent": 84.26,
+      "pH": 7.39,
+      "salinity_psu": 35.25
+    },
+    {
+      "timestamp": "2024-01-01 02:00:00",
+      "temperature_celsius": 20.32,
+      "humidity_percent": 79.92,
+      "pH": 7.25,
+      "salinity_psu": 35.89
+    },
+    {
+      "timestamp": "2024-01-01 03:00:00",
+      "temperature_celsius": 22.67,
+      "humidity_percent": 76.28,
+      "pH": 7.29,
+      "salinity_psu": 35.26
+    },
+    {
+      "timestamp": "2024-01-01 04:00:00",
+      "temperature_celsius": 21.82,
+      "humidity_percent": 80.26,
+      "pH": 7.32,
+      "salinity_psu": 36.16
+    },
+    {
+      "timestamp": "2024-01-01 05:00:00",
+      "temperature_celsius": 22.71,
+      "humidity_percent": 77.02,
+      "pH": 7.27,
+      "salinity_psu": 35.19
+    },
+    {
+      "timestamp": "2024-01-01 06:00:00",
+      "temperature_celsius": 26.1,
+      "humidity_percent": 73.99,
+      "pH": 7.12,
+      "salinity_psu": 35.97
+    },
+    {
+      "timestamp": "2024-01-01 07:00:00",
+      "temperature_celsius": 26.27,
+      "humidity_percent": 73.74,
+      "pH": 7.19,
+      "salinity_psu": 35.31
+    },
+    {
+      "timestamp": "2024-01-01 08:00:00",
+      "temperature_celsius": 27.38,
+      "humidity_percent": 69.07,
+      "pH": 7.25,
+      "salinity_psu": 35.15
+    },
+    {
+      "timestamp": "2024-01-01 09:00:00",
+      "temperature_celsius": 28.66,
+      "humidity_percent": 69.11,
+      "pH": 7.32,
+      "salinity_psu": 35.79
+    },
+    {
+      "timestamp": "2024-01-01 10:00:00",
+      "temperature_celsius": 28.94,
+      "humidity_percent": 70.2,
+      "pH": 7.25,
+      "salinity_psu": 34.98
+    },
+    {
+      "timestamp": "2024-01-01 11:00:00",
+      "temperature_celsius": 29.74,
+      "humidity_percent": 68.92,
+      "pH": 7.19,
+      "salinity_psu": 35.56
+    },
+    {
+      "timestamp": "2024-01-01 12:00:00",
+      "temperature_celsius": 28.79,
+      "humidity_percent": 70.58,
+      "pH": 7.22,
+      "salinity_psu": 35.04
+    },
+    {
+      "timestamp": "2024-01-01 13:00:00",
+      "temperature_celsius": 29.44,
+      "humidity_percent": 68.63,
+      "pH": 7.3,
+      "salinity_psu": 34.97
+    },
+    {
+      "timestamp": "2024-01-01 14:00:00",
+      "temperature_celsius": 30.12,
+      "humidity_percent": 68.44,
+      "pH": 7.25,
+      "salinity_psu": 35.52
+    },
+    {
+      "timestamp": "2024-01-01 15:00:00",
+      "temperature_celsius": 27.22,
+      "humidity_percent": 67.43,
+      "pH": 7.34,
+      "salinity_psu": 36.55
+    },
+    {
+      "timestamp": "2024-01-01 16:00:00",
+      "temperature_celsius": 27.59,
+      "humidity_percent": 71.17,
+      "pH": 7.35,
+      "salinity_psu": 35.71
+    },
+    {
+      "timestamp": "2024-01-01 17:00:00",
+      "temperature_celsius": 26.13,
+      "humidity_percent": 73.15,
+      "pH": 7.2,
+      "salinity_psu": 35.24
+    },
+    {
+      "timestamp": "2024-01-01 18:00:00",
+      "temperature_celsius": 25.05,
+      "humidity_percent": 76.75,
+      "pH": 7.31,
+      "salinity_psu": 35.95
+    },
+    {
+      "timestamp": "2024-01-01 19:00:00",
+      "temperature_celsius": 23.96,
+      "humidity_percent": 77.07,
+      "pH": 7.4,
+      "salinity_psu": 36.26
+    },
+    {
+      "timestamp": "2024-01-01 20:00:00",
+      "temperature_celsius": 25.35,
+      "humidity_percent": 74.63,
+      "pH": 7.6,
+      "salinity_psu": 35.76
+    },
+    {
+      "timestamp": "2024-01-01 21:00:00",
+      "temperature_celsius": 21.1,
+      "humidity_percent": 82.34,
+      "pH": 7.44,
+      "salinity_psu": 35.51
+    },
+    {
+      "timestamp": "2024-01-01 22:00:00",
+      "temperature_celsius": 20.93,
+      "humidity_percent": 80.99,
+      "pH": 7.34,
+      "salinity_psu": 35.31
+    },
+    {
+      "timestamp": "2024-01-01 23:00:00",
+      "temperature_celsius": 19.02,
+      "humidity_percent": 83.45,
+      "pH": 7.58,
+      "salinity_psu": 35.7
+    },
+    {
+      "timestamp": "2024-01-02 00:00:00",
+      "temperature_celsius": 20.98,
+      "humidity_percent": 76.2,
+      "pH": 7.06,
+      "salinity_psu": 35.41
+    },
+    {
+      "timestamp": "2024-01-02 01:00:00",
+      "temperature_celsius": 20.58,
+      "humidity_percent": 88.97,
+      "pH": 7.58,
+      "salinity_psu": 36.44
+    },
+    {
+      "timestamp": "2024-01-02 02:00:00",
+      "temperature_celsius": 19.41,
+      "humidity_percent": 83.51,
+      "pH": 7.48,
+      "salinity_psu": 36.2
+    },
+    {
+      "timestamp": "2024-01-02 03:00:00",
+      "temperature_celsius": 22.03,
+      "humidity_percent": 73.38,
+      "pH": 7.66,
+      "salinity_psu": 36.07
+    },
+    {
+      "timestamp": "2024-01-02 04:00:00",
+      "temperature_celsius": 23.47,
+      "humidity_percent": 74.57,
+      "pH": 7.45,
+      "salinity_psu": 36.23
+    },
+    {
+      "timestamp": "2024-01-02 05:00:00",
+      "temperature_celsius": 24.25,
+      "humidity_percent": 76.91,
+      "pH": 7.15,
+      "salinity_psu": 35.1
+    },
+    {
+      "timestamp": "2024-01-02 06:00:00",
+      "temperature_celsius": 26.17,
+      "humidity_percent": 69.93,
+      "pH": 7.47,
+      "salinity_psu": 35.26
+    },
+    {
+      "timestamp": "2024-01-02 07:00:00",
+      "temperature_celsius": 27.17,
+      "humidity_percent": 74.47,
+      "pH": 7.62,
+      "salinity_psu": 35.98
+    },
+    {
+      "timestamp": "2024-01-02 08:00:00",
+      "temperature_celsius": 29.88,
+      "humidity_percent": 71.69,
+      "pH": 7.51,
+      "salinity_psu": 36.5
+    },
+    {
+      "timestamp": "2024-01-02 09:00:00",
+      "temperature_celsius": 29.69,
+      "humidity_percent": 63.2,
+      "pH": 7.41,
+      "salinity_psu": 35.44
+    },
+    {
+      "timestamp": "2024-01-02 10:00:00",
+      "temperature_celsius": 30.19,
+      "humidity_percent": 65.64,
+      "pH": 7.48,
+      "salinity_psu": 35.0
+    },
+    {
+      "timestamp": "2024-01-02 11:00:00",
+      "temperature_celsius": 31.31,
+      "humidity_percent": 65.45,
+      "pH": 7.4,
+      "salinity_psu": 36.39
+    },
+    {
+      "timestamp": "2024-01-02 12:00:00",
+      "temperature_celsius": 29.96,
+      "humidity_percent": 64.39,
+      "pH": 7.65,
+      "salinity_psu": 36.82
+    },
+    {
+      "timestamp": "2024-01-02 13:00:00",
+      "temperature_celsius": 28.54,
+      "humidity_percent": 69.77,
+      "pH": 7.58,
+      "salinity_psu": 36.69
+    },
+    {
+      "timestamp": "2024-01-02 14:00:00",
+      "temperature_celsius": 29.87,
+      "humidity_percent": 65.28,
+      "pH": 7.53,
+      "salinity_psu": 37.0
+    },
+    {
+      "timestamp": "2024-01-02 15:00:00",
+      "temperature_celsius": 28.54,
+      "humidity_percent": 69.8,
+      "pH": 7.81,
+      "salinity_psu": 35.71
+    },
+    {
+      "timestamp": "2024-01-02 16:00:00",
+      "temperature_celsius": 27.02,
+      "humidity_percent": 68.34,
+      "pH": 7.51,
+      "salinity_psu": 36.08
+    },
+    {
+      "timestamp": "2024-01-02 17:00:00",
+      "temperature_celsius": 26.4,
+      "humidity_percent": 72.08,
+      "pH": 7.39,
+      "salinity_psu": 36.5
+    },
+    {
+      "timestamp": "2024-01-02 18:00:00",
+      "temperature_celsius": 26.33,
+      "humidity_percent": 72.26,
+      "pH": 7.67,
+      "salinity_psu": 36.16
+    },
+    {
+      "timestamp": "2024-01-02 19:00:00",
+      "temperature_celsius": 22.96,
+      "humidity_percent": 75.4,
+      "pH": 7.6,
+      "salinity_psu": 36.58
+    },
+    {
+      "timestamp": "2024-01-02 20:00:00",
+      "temperature_celsius": 22.13,
+      "humidity_percent": 78.57,
+      "pH": 7.73,
+      "salinity_psu": 35.91
+    },
+    {
+      "timestamp": "2024-01-02 21:00:00",
+      "temperature_celsius": 22.94,
+      "humidity_percent": 82.94,
+      "pH": 7.33,
+      "salinity_psu": 35.82
+    },
+    {
+      "timestamp": "2024-01-02 22:00:00",
+      "temperature_celsius": 20.48,
+      "humidity_percent": 84.64,
+      "pH": 7.22,
+      "salinity_psu": 36.37
+    },
+    {
+      "timestamp": "2024-01-02 23:00:00",
+      "temperature_celsius": 21.73,
+      "humidity_percent": 76.57,
+      "pH": 7.63,
+      "salinity_psu": 36.09
+    },
+    {
+      "timestamp": "2024-01-03 00:00:00",
+      "temperature_celsius": 18.93,
+      "humidity_percent": 80.75,
+      "pH": 7.43,
+      "salinity_psu": 36.61
+    },
+    {
+      "timestamp": "2024-01-03 01:00:00",
+      "temperature_celsius": 20.67,
+      "humidity_percent": 81.54,
+      "pH": 7.82,
+      "salinity_psu": 36.03
+    },
+    {
+      "timestamp": "2024-01-03 02:00:00",
+      "temperature_celsius": 20.63,
+      "humidity_percent": 83.5,
+      "pH": 7.57,
+      "salinity_psu": 36.03
+    },
+    {
+      "timestamp": "2024-01-03 03:00:00",
+      "temperature_celsius": 20.85,
+      "humidity_percent": 78.32,
+      "pH": 7.3,
+      "salinity_psu": 36.5
+    },
+    {
+      "timestamp": "2024-01-03 04:00:00",
+      "temperature_celsius": 22.28,
+      "humidity_percent": 81.4,
+      "pH": 7.39,
+      "salinity_psu": 36.39
+    },
+    {
+      "timestamp": "2024-01-03 05:00:00",
+      "temperature_celsius": 21.78,
+      "humidity_percent": 81.71,
+      "pH": 7.43,
+      "salinity_psu": 36.89
+    },
+    {
+      "timestamp": "2024-01-03 06:00:00",
+      "temperature_celsius": 27.36,
+      "humidity_percent": 71.91,
+      "pH": 7.73,
+      "salinity_psu": 36.53
+    },
+    {
+      "timestamp": "2024-01-03 07:00:00",
+      "temperature_celsius": 28.38,
+      "humidity_percent": 71.05,
+      "pH": 7.19,
+      "salinity_psu": 36.79
+    },
+    {
+      "timestamp": "2024-01-03 08:00:00",
+      "temperature_celsius": 28.17,
+      "humidity_percent": 71.76,
+      "pH": 7.43,
+      "salinity_psu": 36.42
+    },
+    {
+      "timestamp": "2024-01-03 09:00:00",
+      "temperature_celsius": 30.32,
+      "humidity_percent": 72.13,
+      "pH": 7.54,
+      "salinity_psu": 36.58
+    },
+    {
+      "timestamp": "2024-01-03 10:00:00",
+      "temperature_celsius": 29.7,
+      "humidity_percent": 70.04,
+      "pH": 7.87,
+      "salinity_psu": 36.63
+    },
+    {
+      "timestamp": "2024-01-03 11:00:00",
+      "temperature_celsius": 32.15,
+      "humidity_percent": 56.83,
+      "pH": 7.78,
+      "salinity_psu": 37.59
+    },
+    {
+      "timestamp": "2024-01-03 12:00:00",
+      "temperature_celsius": 31.22,
+      "humidity_percent": 61.99,
+      "pH": 7.65,
+      "salinity_psu": 36.25
+    },
+    {
+      "timestamp": "2024-01-03 13:00:00",
+      "temperature_celsius": 30.06,
+      "humidity_percent": 66.25,
+      "pH": 7.57,
+      "salinity_psu": 37.0
+    },
+    {
+      "timestamp": "2024-01-03 14:00:00",
+      "temperature_celsius": 28.59,
+      "humidity_percent": 66.66,
+      "pH": 7.53,
+      "salinity_psu": 36.57
+    },
+    {
+      "timestamp": "2024-01-03 15:00:00",
+      "temperature_celsius": 29.44,
+      "humidity_percent": 67.1,
+      "pH": 7.61,
+      "salinity_psu": 37.83
+    },
+    {
+      "timestamp": "2024-01-03 16:00:00",
+      "temperature_celsius": 27.44,
+      "humidity_percent": 73.21,
+      "pH": 7.57,
+      "salinity_psu": 37.52
+    },
+    {
+      "timestamp": "2024-01-03 17:00:00",
+      "temperature_celsius": 26.31,
+      "humidity_percent": 80.15,
+      "pH": 7.3,
+      "salinity_psu": 36.69
+    },
+    {
+      "timestamp": "2024-01-03 18:00:00",
+      "temperature_celsius": 24.34,
+      "humidity_percent": 76.73,
+      "pH": 7.32,
+      "salinity_psu": 36.41
+    },
+    {
+      "timestamp": "2024-01-03 19:00:00",
+      "temperature_celsius": 24.49,
+      "humidity_percent": 77.73,
+      "pH": 7.34,
+      "salinity_psu": 36.73
+    },
+    {
+      "timestamp": "2024-01-03 20:00:00",
+      "temperature_celsius": 23.83,
+      "humidity_percent": 76.55,
+      "pH": 7.44,
+      "salinity_psu": 36.41
+    },
+    {
+      "timestamp": "2024-01-03 21:00:00",
+      "temperature_celsius": 21.86,
+      "humidity_percent": 79.39,
+      "pH": 7.44,
+      "salinity_psu": 37.32
+    },
+    {
+      "timestamp": "2024-01-03 22:00:00",
+      "temperature_celsius": 20.46,
+      "humidity_percent": 82.6,
+      "pH": 7.67,
+      "salinity_psu": 36.04
+    },
+    {
+      "timestamp": "2024-01-03 23:00:00",
+      "temperature_celsius": 19.66,
+      "humidity_percent": 83.89,
+      "pH": 7.53,
+      "salinity_psu": 36.86
+    },
+    {
+      "timestamp": "2024-01-04 00:00:00",
+      "temperature_celsius": 22.64,
+      "humidity_percent": 77.34,
+      "pH": 7.25,
+      "salinity_psu": 38.04
+    },
+    {
+      "timestamp": "2024-01-04 01:00:00",
+      "temperature_celsius": 19.93,
+      "humidity_percent": 81.74,
+      "pH": 7.83,
+      "salinity_psu": 36.87
+    },
+    {
+      "timestamp": "2024-01-04 02:00:00",
+      "temperature_celsius": 20.55,
+      "humidity_percent": 89.51,
+      "pH": 7.46,
+      "salinity_psu": 36.87
+    },
+    {
+      "timestamp": "2024-01-04 03:00:00",
+      "temperature_celsius": 22.73,
+      "humidity_percent": 77.25,
+      "pH": 7.37,
+      "salinity_psu": 36.31
+    },
+    {
+      "timestamp": "2024-01-04 04:00:00",
+      "temperature_celsius": 23.36,
+      "humidity_percent": 73.02,
+      "pH": 7.6,
+      "salinity_psu": 36.45
+    },
+    {
+      "timestamp": "2024-01-04 05:00:00",
+      "temperature_celsius": 24.2,
+      "humidity_percent": 77.81,
+      "pH": 7.54,
+      "salinity_psu": 36.44
+    },
+    {
+      "timestamp": "2024-01-04 06:00:00",
+      "temperature_celsius": 23.92,
+      "humidity_percent": 77.7,
+      "pH": 7.58,
+      "salinity_psu": 35.9
+    },
+    {
+      "timestamp": "2024-01-04 07:00:00",
+      "temperature_celsius": 26.7,
+      "humidity_percent": 74.29,
+      "pH": 7.27,
+      "salinity_psu": 36.7
+    },
+    {
+      "timestamp": "2024-01-04 08:00:00",
+      "temperature_celsius": 26.93,
+      "humidity_percent": 74.06,
+      "pH": 7.58,
+      "salinity_psu": 36.89
+    },
+    {
+      "timestamp": "2024-01-04 09:00:00",
+      "temperature_celsius": 28.4,
+      "humidity_percent": 66.92,
+      "pH": 7.32,
+      "salinity_psu": 36.34
+    },
+    {
+      "timestamp": "2024-01-04 10:00:00",
+      "temperature_celsius": 29.04,
+      "humidity_percent": 66.77,
+      "pH": 7.37,
+      "salinity_psu": 38.05
+    },
+    {
+      "timestamp": "2024-01-04 11:00:00",
+      "temperature_celsius": 27.74,
+      "humidity_percent": 69.67,
+      "pH": 7.48,
+      "salinity_psu": 36.5
+    },
+    {
+      "timestamp": "2024-01-04 12:00:00",
+      "temperature_celsius": 30.23,
+      "humidity_percent": 64.46,
+      "pH": 7.49,
+      "salinity_psu": 37.5
+    },
+    {
+      "timestamp": "2024-01-04 13:00:00",
+      "temperature_celsius": 31.62,
+      "humidity_percent": 63.51,
+      "pH": 7.38,
+      "salinity_psu": 37.22
+    },
+    {
+      "timestamp": "2024-01-04 14:00:00",
+      "temperature_celsius": 29.52,
+      "humidity_percent": 67.29,
+      "pH": 7.37,
+      "salinity_psu": 36.97
+    },
+    {
+      "timestamp": "2024-01-04 15:00:00",
+      "temperature_celsius": 30.86,
+      "humidity_percent": 63.87,
+      "pH": 7.45,
+      "salinity_psu": 37.21
+    },
+    {
+      "timestamp": "2024-01-04 16:00:00",
+      "temperature_celsius": 26.44,
+      "humidity_percent": 71.42,
+      "pH": 7.39,
+      "salinity_psu": 36.96
+    },
+    {
+      "timestamp": "2024-01-04 17:00:00",
+      "temperature_celsius": 26.85,
+      "humidity_percent": 73.65,
+      "pH": 7.46,
+      "salinity_psu": 37.66
+    },
+    {
+      "timestamp": "2024-01-04 18:00:00",
+      "temperature_celsius": 25.43,
+      "humidity_percent": 77.99,
+      "pH": 7.25,
+      "salinity_psu": 37.24
+    },
+    {
+      "timestamp": "2024-01-04 19:00:00",
+      "temperature_celsius": 24.84,
+      "humidity_percent": 75.31,
+      "pH": 7.46,
+      "salinity_psu": 37.12
+    },
+    {
+      "timestamp": "2024-01-04 20:00:00",
+      "temperature_celsius": 23.86,
+      "humidity_percent": 72.8,
+      "pH": 7.62,
+      "salinity_psu": 36.08
+    },
+    {
+      "timestamp": "2024-01-04 21:00:00",
+      "temperature_celsius": 22.1,
+      "humidity_percent": 83.67,
+      "pH": 7.36,
+      "salinity_psu": 37.23
+    },
+    {
+      "timestamp": "2024-01-04 22:00:00",
+      "temperature_celsius": 22.12,
+      "humidity_percent": 76.37,
+      "pH": 7.69,
+      "salinity_psu": 37.34
+    },
+    {
+      "timestamp": "2024-01-04 23:00:00",
+      "temperature_celsius": 18.93,
+      "humidity_percent": 82.33,
+      "pH": 7.29,
+      "salinity_psu": 37.1
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "temperature_celsius": 18.56,
+      "humidity_percent": 83.75,
+      "pH": 7.41,
+      "salinity_psu": 36.82
+    },
+    {
+      "timestamp": "2024-01-05 01:00:00",
+      "temperature_celsius": 21.13,
+      "humidity_percent": 82.29,
+      "pH": 7.42,
+      "salinity_psu": 38.06
+    },
+    {
+      "timestamp": "2024-01-05 02:00:00",
+      "temperature_celsius": 22.53,
+      "humidity_percent": 79.87,
+      "pH": 7.57,
+      "salinity_psu": 36.55
+    },
+    {
+      "timestamp": "2024-01-05 03:00:00",
+      "temperature_celsius": 22.19,
+      "humidity_percent": 76.17,
+      "pH": 7.14,
+      "salinity_psu": 36.88
+    },
+    {
+      "timestamp": "2024-01-05 04:00:00",
+      "temperature_celsius": 25.08,
+      "humidity_percent": 70.06,
+      "pH": 7.4,
+      "salinity_psu": 37.5
+    },
+    {
+      "timestamp": "2024-01-05 05:00:00",
+      "temperature_celsius": 23.08,
+      "humidity_percent": 73.6,
+      "pH": 7.18,
+      "salinity_psu": 36.74
+    },
+    {
+      "timestamp": "2024-01-05 06:00:00",
+      "temperature_celsius": 25.72,
+      "humidity_percent": 72.03,
+      "pH": 7.33,
+      "salinity_psu": 36.64
+    },
+    {
+      "timestamp": "2024-01-05 07:00:00",
+      "temperature_celsius": 25.77,
+      "humidity_percent": 71.11,
+      "pH": 7.21,
+      "salinity_psu": 37.15
+    },
+    {
+      "timestamp": "2024-01-05 08:00:00",
+      "temperature_celsius": 27.56,
+      "humidity_percent": 68.46,
+      "pH": 7.53,
+      "salinity_psu": 37.99
+    },
+    {
+      "timestamp": "2024-01-05 09:00:00",
+      "temperature_celsius": 28.71,
+      "humidity_percent": 74.32,
+      "pH": 7.26,
+      "salinity_psu": 36.89
+    },
+    {
+      "timestamp": "2024-01-05 10:00:00",
+      "temperature_celsius": 28.6,
+      "humidity_percent": 70.94,
+      "pH": 7.32,
+      "salinity_psu": 36.57
+    },
+    {
+      "timestamp": "2024-01-05 11:00:00",
+      "temperature_celsius": 31.37,
+      "humidity_percent": 64.79,
+      "pH": 7.39,
+      "salinity_psu": 38.0
+    },
+    {
+      "timestamp": "2024-01-05 12:00:00",
+      "temperature_celsius": 31.1,
+      "humidity_percent": 70.43,
+      "pH": 7.11,
+      "salinity_psu": 35.99
+    },
+    {
+      "timestamp": "2024-01-05 13:00:00",
+      "temperature_celsius": 30.91,
+      "humidity_percent": 64.68,
+      "pH": 7.21,
+      "salinity_psu": 36.8
+    },
+    {
+      "timestamp": "2024-01-05 14:00:00",
+      "temperature_celsius": 30.81,
+      "humidity_percent": 66.96,
+      "pH": 7.25,
+      "salinity_psu": 36.65
+    },
+    {
+      "timestamp": "2024-01-05 15:00:00",
+      "temperature_celsius": 29.74,
+      "humidity_percent": 67.64,
+      "pH": 7.44,
+      "salinity_psu": 37.23
+    },
+    {
+      "timestamp": "2024-01-05 16:00:00",
+      "temperature_celsius": 28.7,
+      "humidity_percent": 71.34,
+      "pH": 7.43,
+      "salinity_psu": 36.56
+    },
+    {
+      "timestamp": "2024-01-05 17:00:00",
+      "temperature_celsius": 25.5,
+      "humidity_percent": 73.62,
+      "pH": 7.16,
+      "salinity_psu": 36.39
+    },
+    {
+      "timestamp": "2024-01-05 18:00:00",
+      "temperature_celsius": 25.63,
+      "humidity_percent": 73.81,
+      "pH": 7.19,
+      "salinity_psu": 37.47
+    },
+    {
+      "timestamp": "2024-01-05 19:00:00",
+      "temperature_celsius": 23.8,
+      "humidity_percent": 76.62,
+      "pH": 7.14,
+      "salinity_psu": 37.26
+    },
+    {
+      "timestamp": "2024-01-05 20:00:00",
+      "temperature_celsius": 24.18,
+      "humidity_percent": 71.58,
+      "pH": 7.24,
+      "salinity_psu": 36.54
+    },
+    {
+      "timestamp": "2024-01-05 21:00:00",
+      "temperature_celsius": 24.14,
+      "humidity_percent": 74.44,
+      "pH": 7.24,
+      "salinity_psu": 37.41
+    },
+    {
+      "timestamp": "2024-01-05 22:00:00",
+      "temperature_celsius": 22.5,
+      "humidity_percent": 81.52,
+      "pH": 7.03,
+      "salinity_psu": 35.92
+    },
+    {
+      "timestamp": "2024-01-05 23:00:00",
+      "temperature_celsius": 22.75,
+      "humidity_percent": 80.41,
+      "pH": 7.06,
+      "salinity_psu": 36.28
+    },
+    {
+      "timestamp": "2024-01-06 00:00:00",
+      "temperature_celsius": 22.76,
+      "humidity_percent": 79.85,
+      "pH": 7.25,
+      "salinity_psu": 36.79
+    },
+    {
+      "timestamp": "2024-01-06 01:00:00",
+      "temperature_celsius": 21.74,
+      "humidity_percent": 80.17,
+      "pH": 7.01,
+      "salinity_psu": 37.55
+    },
+    {
+      "timestamp": "2024-01-06 02:00:00",
+      "temperature_celsius": 21.7,
+      "humidity_percent": 79.6,
+      "pH": 6.93,
+      "salinity_psu": 35.71
+    },
+    {
+      "timestamp": "2024-01-06 03:00:00",
+      "temperature_celsius": 22.77,
+      "humidity_percent": 81.01,
+      "pH": 6.89,
+      "salinity_psu": 37.04
+    },
+    {
+      "timestamp": "2024-01-06 04:00:00",
+      "temperature_celsius": 22.9,
+      "humidity_percent": 75.18,
+      "pH": 6.94,
+      "salinity_psu": 37.32
+    },
+    {
+      "timestamp": "2024-01-06 05:00:00",
+      "temperature_celsius": 23.77,
+      "humidity_percent": 74.57,
+      "pH": 7.12,
+      "salinity_psu": 37.48
+    },
+    {
+      "timestamp": "2024-01-06 06:00:00",
+      "temperature_celsius": 26.3,
+      "humidity_percent": 76.62,
+      "pH": 7.27,
+      "salinity_psu": 36.27
+    },
+    {
+      "timestamp": "2024-01-06 07:00:00",
+      "temperature_celsius": 27.19,
+      "humidity_percent": 74.4,
+      "pH": 7.18,
+      "salinity_psu": 36.84
+    },
+    {
+      "timestamp": "2024-01-06 08:00:00",
+      "temperature_celsius": 29.81,
+      "humidity_percent": 70.53,
+      "pH": 7.11,
+      "salinity_psu": 36.96
+    },
+    {
+      "timestamp": "2024-01-06 09:00:00",
+      "temperature_celsius": 29.86,
+      "humidity_percent": 64.25,
+      "pH": 6.95,
+      "salinity_psu": 36.55
+    },
+    {
+      "timestamp": "2024-01-06 10:00:00",
+      "temperature_celsius": 30.78,
+      "humidity_percent": 66.48,
+      "pH": 6.94,
+      "salinity_psu": 36.05
+    },
+    {
+      "timestamp": "2024-01-06 11:00:00",
+      "temperature_celsius": 28.89,
+      "humidity_percent": 65.27,
+      "pH": 7.15,
+      "salinity_psu": 37.39
+    },
+    {
+      "timestamp": "2024-01-06 12:00:00",
+      "temperature_celsius": 31.22,
+      "humidity_percent": 67.66,
+      "pH": 7.34,
+      "salinity_psu": 36.99
+    },
+    {
+      "timestamp": "2024-01-06 13:00:00",
+      "temperature_celsius": 29.91,
+      "humidity_percent": 68.21,
+      "pH": 6.91,
+      "salinity_psu": 36.9
+    },
+    {
+      "timestamp": "2024-01-06 14:00:00",
+      "temperature_celsius": 29.72,
+      "humidity_percent": 71.29,
+      "pH": 6.99,
+      "salinity_psu": 36.71
+    },
+    {
+      "timestamp": "2024-01-06 15:00:00",
+      "temperature_celsius": 29.12,
+      "humidity_percent": 66.69,
+      "pH": 7.05,
+      "salinity_psu": 35.82
+    },
+    {
+      "timestamp": "2024-01-06 16:00:00",
+      "temperature_celsius": 28.93,
+      "humidity_percent": 71.58,
+      "pH": 7.19,
+      "salinity_psu": 35.93
+    },
+    {
+      "timestamp": "2024-01-06 17:00:00",
+      "temperature_celsius": 27.55,
+      "humidity_percent": 71.86,
+      "pH": 7.39,
+      "salinity_psu": 36.0
+    },
+    {
+      "timestamp": "2024-01-06 18:00:00",
+      "temperature_celsius": 26.12,
+      "humidity_percent": 72.88,
+      "pH": 7.03,
+      "salinity_psu": 36.36
+    },
+    {
+      "timestamp": "2024-01-06 19:00:00",
+      "temperature_celsius": 24.55,
+      "humidity_percent": 75.78,
+      "pH": 7.15,
+      "salinity_psu": 36.51
+    },
+    {
+      "timestamp": "2024-01-06 20:00:00",
+      "temperature_celsius": 24.26,
+      "humidity_percent": 80.11,
+      "pH": 6.75,
+      "salinity_psu": 37.0
+    },
+    {
+      "timestamp": "2024-01-06 21:00:00",
+      "temperature_celsius": 22.57,
+      "humidity_percent": 83.92,
+      "pH": 7.14,
+      "salinity_psu": 35.65
+    },
+    {
+      "timestamp": "2024-01-06 22:00:00",
+      "temperature_celsius": 20.79,
+      "humidity_percent": 81.54,
+      "pH": 7.02,
+      "salinity_psu": 36.33
+    },
+    {
+      "timestamp": "2024-01-06 23:00:00",
+      "temperature_celsius": 21.78,
+      "humidity_percent": 80.11,
+      "pH": 6.96,
+      "salinity_psu": 36.05
+    },
+    {
+      "timestamp": "2024-01-07 00:00:00",
+      "temperature_celsius": 21.62,
+      "humidity_percent": 80.26,
+      "pH": 7.12,
+      "salinity_psu": 35.61
+    },
+    {
+      "timestamp": "2024-01-07 01:00:00",
+      "temperature_celsius": 20.84,
+      "humidity_percent": 80.34,
+      "pH": 6.81,
+      "salinity_psu": 36.7
+    },
+    {
+      "timestamp": "2024-01-07 02:00:00",
+      "temperature_celsius": 24.03,
+      "humidity_percent": 77.76,
+      "pH": 6.77,
+      "salinity_psu": 35.1
+    },
+    {
+      "timestamp": "2024-01-07 03:00:00",
+      "temperature_celsius": 21.88,
+      "humidity_percent": 80.94,
+      "pH": 7.15,
+      "salinity_psu": 35.62
+    },
+    {
+      "timestamp": "2024-01-07 04:00:00",
+      "temperature_celsius": 24.26,
+      "humidity_percent": 75.31,
+      "pH": 7.09,
+      "salinity_psu": 36.04
+    },
+    {
+      "timestamp": "2024-01-07 05:00:00",
+      "temperature_celsius": 24.1,
+      "humidity_percent": 71.75,
+      "pH": 6.92,
+      "salinity_psu": 36.26
+    },
+    {
+      "timestamp": "2024-01-07 06:00:00",
+      "temperature_celsius": 24.79,
+      "humidity_percent": 76.42,
+      "pH": 6.87,
+      "salinity_psu": 35.83
+    },
+    {
+      "timestamp": "2024-01-07 07:00:00",
+      "temperature_celsius": 27.6,
+      "humidity_percent": 76.88,
+      "pH": 7.0,
+      "salinity_psu": 35.18
+    },
+    {
+      "timestamp": "2024-01-07 08:00:00",
+      "temperature_celsius": 29.29,
+      "humidity_percent": 66.7,
+      "pH": 6.99,
+      "salinity_psu": 36.48
+    },
+    {
+      "timestamp": "2024-01-07 09:00:00",
+      "temperature_celsius": 30.44,
+      "humidity_percent": 71.88,
+      "pH": 7.36,
+      "salinity_psu": 36.15
+    },
+    {
+      "timestamp": "2024-01-07 10:00:00",
+      "temperature_celsius": 30.33,
+      "humidity_percent": 69.85,
+      "pH": 7.16,
+      "salinity_psu": 35.21
+    },
+    {
+      "timestamp": "2024-01-07 11:00:00",
+      "temperature_celsius": 31.16,
+      "humidity_percent": 67.23,
+      "pH": 7.24,
+      "salinity_psu": 35.42
+    },
+    {
+      "timestamp": "2024-01-07 12:00:00",
+      "temperature_celsius": 30.62,
+      "humidity_percent": 67.98,
+      "pH": 7.03,
+      "salinity_psu": 34.93
+    },
+    {
+      "timestamp": "2024-01-07 13:00:00",
+      "temperature_celsius": 31.32,
+      "humidity_percent": 65.37,
+      "pH": 6.88,
+      "salinity_psu": 36.41
+    },
+    {
+      "timestamp": "2024-01-07 14:00:00",
+      "temperature_celsius": 32.89,
+      "humidity_percent": 64.98,
+      "pH": 6.8,
+      "salinity_psu": 36.42
+    },
+    {
+      "timestamp": "2024-01-07 15:00:00",
+      "temperature_celsius": 29.33,
+      "humidity_percent": 63.04,
+      "pH": 7.07,
+      "salinity_psu": 36.54
+    },
+    {
+      "timestamp": "2024-01-07 16:00:00",
+      "temperature_celsius": 26.28,
+      "humidity_percent": 79.64,
+      "pH": 6.83,
+      "salinity_psu": 35.87
+    },
+    {
+      "timestamp": "2024-01-07 17:00:00",
+      "temperature_celsius": 26.7,
+      "humidity_percent": 70.07,
+      "pH": 6.83,
+      "salinity_psu": 35.74
+    },
+    {
+      "timestamp": "2024-01-07 18:00:00",
+      "temperature_celsius": 25.11,
+      "humidity_percent": 70.05,
+      "pH": 6.79,
+      "salinity_psu": 35.78
+    },
+    {
+      "timestamp": "2024-01-07 19:00:00",
+      "temperature_celsius": 23.12,
+      "humidity_percent": 75.47,
+      "pH": 7.05,
+      "salinity_psu": 35.5
+    },
+    {
+      "timestamp": "2024-01-07 20:00:00",
+      "temperature_celsius": 22.79,
+      "humidity_percent": 74.54,
+      "pH": 6.84,
+      "salinity_psu": 34.86
+    },
+    {
+      "timestamp": "2024-01-07 21:00:00",
+      "temperature_celsius": 20.9,
+      "humidity_percent": 82.46,
+      "pH": 7.01,
+      "salinity_psu": 34.99
+    },
+    {
+      "timestamp": "2024-01-07 22:00:00",
+      "temperature_celsius": 23.53,
+      "humidity_percent": 80.61,
+      "pH": 7.1,
+      "salinity_psu": 34.88
+    },
+    {
+      "timestamp": "2024-01-07 23:00:00",
+      "temperature_celsius": 21.91,
+      "humidity_percent": 86.9,
+      "pH": 7.09,
+      "salinity_psu": 36.15
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "temperature_celsius": 20.09,
+      "humidity_percent": 86.06,
+      "pH": 6.58,
+      "salinity_psu": 35.41
+    },
+    {
+      "timestamp": "2024-01-08 01:00:00",
+      "temperature_celsius": 21.13,
+      "humidity_percent": 76.15,
+      "pH": 6.66,
+      "salinity_psu": 35.84
+    },
+    {
+      "timestamp": "2024-01-08 02:00:00",
+      "temperature_celsius": 20.43,
+      "humidity_percent": 83.33,
+      "pH": 7.13,
+      "salinity_psu": 35.5
+    },
+    {
+      "timestamp": "2024-01-08 03:00:00",
+      "temperature_celsius": 21.9,
+      "humidity_percent": 79.11,
+      "pH": 6.94,
+      "salinity_psu": 35.7
+    },
+    {
+      "timestamp": "2024-01-08 04:00:00",
+      "temperature_celsius": 24.2,
+      "humidity_percent": 77.98,
+      "pH": 6.89,
+      "salinity_psu": 35.33
+    },
+    {
+      "timestamp": "2024-01-08 05:00:00",
+      "temperature_celsius": 22.99,
+      "humidity_percent": 77.2,
+      "pH": 6.8,
+      "salinity_psu": 34.92
+    },
+    {
+      "timestamp": "2024-01-08 06:00:00",
+      "temperature_celsius": 25.76,
+      "humidity_percent": 73.09,
+      "pH": 7.06,
+      "salinity_psu": 34.87
+    },
+    {
+      "timestamp": "2024-01-08 07:00:00",
+      "temperature_celsius": 27.63,
+      "humidity_percent": 69.25,
+      "pH": 6.92,
+      "salinity_psu": 35.41
+    },
+    {
+      "timestamp": "2024-01-08 08:00:00",
+      "temperature_celsius": 30.2,
+      "humidity_percent": 69.26,
+      "pH": 6.99,
+      "salinity_psu": 35.02
+    },
+    {
+      "timestamp": "2024-01-08 09:00:00",
+      "temperature_celsius": 28.66,
+      "humidity_percent": 72.82,
+      "pH": 7.31,
+      "salinity_psu": 35.32
+    },
+    {
+      "timestamp": "2024-01-08 10:00:00",
+      "temperature_celsius": 29.81,
+      "humidity_percent": 67.7,
+      "pH": 7.01,
+      "salinity_psu": 35.68
+    },
+    {
+      "timestamp": "2024-01-08 11:00:00",
+      "temperature_celsius": 31.62,
+      "humidity_percent": 63.91,
+      "pH": 6.68,
+      "salinity_psu": 33.91
+    },
+    {
+      "timestamp": "2024-01-08 12:00:00",
+      "temperature_celsius": 30.41,
+      "humidity_percent": 68.25,
+      "pH": 6.93,
+      "salinity_psu": 35.67
+    },
+    {
+      "timestamp": "2024-01-08 13:00:00",
+      "temperature_celsius": 31.42,
+      "humidity_percent": 67.9,
+      "pH": 6.58,
+      "salinity_psu": 35.3
+    },
+    {
+      "timestamp": "2024-01-08 14:00:00",
+      "temperature_celsius": 31.8,
+      "humidity_percent": 65.94,
+      "pH": 6.79,
+      "salinity_psu": 35.28
+    },
+    {
+      "timestamp": "2024-01-08 15:00:00",
+      "temperature_celsius": 30.3,
+      "humidity_percent": 68.57,
+      "pH": 6.87,
+      "salinity_psu": 34.78
+    },
+    {
+      "timestamp": "2024-01-08 16:00:00",
+      "temperature_celsius": 30.22,
+      "humidity_percent": 70.41,
+      "pH": 7.03,
+      "salinity_psu": 34.81
+    },
+    {
+      "timestamp": "2024-01-08 17:00:00",
+      "temperature_celsius": 27.31,
+      "humidity_percent": 68.78,
+      "pH": 7.05,
+      "salinity_psu": 35.32
+    },
+    {
+      "timestamp": "2024-01-08 18:00:00",
+      "temperature_celsius": 27.08,
+      "humidity_percent": 72.25,
+      "pH": 6.87,
+      "salinity_psu": 34.18
+    },
+    {
+      "timestamp": "2024-01-08 19:00:00",
+      "temperature_celsius": 25.7,
+      "humidity_percent": 70.95,
+      "pH": 7.18,
+      "salinity_psu": 34.79
+    },
+    {
+      "timestamp": "2024-01-08 20:00:00",
+      "temperature_celsius": 22.58,
+      "humidity_percent": 83.86,
+      "pH": 6.83,
+      "salinity_psu": 34.73
+    },
+    {
+      "timestamp": "2024-01-08 21:00:00",
+      "temperature_celsius": 22.87,
+      "humidity_percent": 77.52,
+      "pH": 6.88,
+      "salinity_psu": 34.8
+    },
+    {
+      "timestamp": "2024-01-08 22:00:00",
+      "temperature_celsius": 21.86,
+      "humidity_percent": 79.89,
+      "pH": 7.15,
+      "salinity_psu": 34.39
+    },
+    {
+      "timestamp": "2024-01-08 23:00:00",
+      "temperature_celsius": 20.82,
+      "humidity_percent": 82.44,
+      "pH": 6.9,
+      "salinity_psu": 34.93
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "temperature_celsius": 21.36,
+      "humidity_percent": 81.84,
+      "pH": 7.21,
+      "salinity_psu": 34.17
+    },
+    {
+      "timestamp": "2024-01-09 01:00:00",
+      "temperature_celsius": 21.53,
+      "humidity_percent": 79.46,
+      "pH": 6.98,
+      "salinity_psu": 34.3
+    },
+    {
+      "timestamp": "2024-01-09 02:00:00",
+      "temperature_celsius": 23.7,
+      "humidity_percent": 72.64,
+      "pH": 6.6,
+      "salinity_psu": 34.89
+    },
+    {
+      "timestamp": "2024-01-09 03:00:00",
+      "temperature_celsius": 21.05,
+      "humidity_percent": 81.32,
+      "pH": 6.79,
+      "salinity_psu": 35.55
+    },
+    {
+      "timestamp": "2024-01-09 04:00:00",
+      "temperature_celsius": 23.77,
+      "humidity_percent": 76.13,
+      "pH": 6.87,
+      "salinity_psu": 33.63
+    },
+    {
+      "timestamp": "2024-01-09 05:00:00",
+      "temperature_celsius": 24.35,
+      "humidity_percent": 72.78,
+      "pH": 6.86,
+      "salinity_psu": 34.14
+    },
+    {
+      "timestamp": "2024-01-09 06:00:00",
+      "temperature_celsius": 27.91,
+      "humidity_percent": 74.63,
+      "pH": 7.02,
+      "salinity_psu": 34.33
+    },
+    {
+      "timestamp": "2024-01-09 07:00:00",
+      "temperature_celsius": 27.11,
+      "humidity_percent": 70.44,
+      "pH": 6.79,
+      "salinity_psu": 33.84
+    },
+    {
+      "timestamp": "2024-01-09 08:00:00",
+      "temperature_celsius": 30.12,
+      "humidity_percent": 59.78,
+      "pH": 6.86,
+      "salinity_psu": 34.81
+    },
+    {
+      "timestamp": "2024-01-09 09:00:00",
+      "temperature_celsius": 29.56,
+      "humidity_percent": 71.87,
+      "pH": 7.08,
+      "salinity_psu": 34.37
+    },
+    {
+      "timestamp": "2024-01-09 10:00:00",
+      "temperature_celsius": 31.43,
+      "humidity_percent": 61.25,
+      "pH": 7.27,
+      "salinity_psu": 34.21
+    },
+    {
+      "timestamp": "2024-01-09 11:00:00",
+      "temperature_celsius": 30.98,
+      "humidity_percent": 65.99,
+      "pH": 6.89,
+      "salinity_psu": 34.43
+    },
+    {
+      "timestamp": "2024-01-09 12:00:00",
+      "temperature_celsius": 32.07,
+      "humidity_percent": 62.74,
+      "pH": 6.91,
+      "salinity_psu": 34.56
+    },
+    {
+      "timestamp": "2024-01-09 13:00:00",
+      "temperature_celsius": 31.06,
+      "humidity_percent": 66.6,
+      "pH": 7.13,
+      "salinity_psu": 34.28
+    },
+    {
+      "timestamp": "2024-01-09 14:00:00",
+      "temperature_celsius": 29.77,
+      "humidity_percent": 69.54,
+      "pH": 7.15,
+      "salinity_psu": 34.51
+    },
+    {
+      "timestamp": "2024-01-09 15:00:00",
+      "temperature_celsius": 30.15,
+      "humidity_percent": 64.99,
+      "pH": 6.86,
+      "salinity_psu": 33.43
+    },
+    {
+      "timestamp": "2024-01-09 16:00:00",
+      "temperature_celsius": 27.33,
+      "humidity_percent": 73.92,
+      "pH": 7.3,
+      "salinity_psu": 33.12
+    },
+    {
+      "timestamp": "2024-01-09 17:00:00",
+      "temperature_celsius": 28.03,
+      "humidity_percent": 72.08,
+      "pH": 6.97,
+      "salinity_psu": 34.12
+    },
+    {
+      "timestamp": "2024-01-09 18:00:00",
+      "temperature_celsius": 27.65,
+      "humidity_percent": 69.54,
+      "pH": 7.01,
+      "salinity_psu": 34.31
+    },
+    {
+      "timestamp": "2024-01-09 19:00:00",
+      "temperature_celsius": 24.64,
+      "humidity_percent": 68.88,
+      "pH": 7.25,
+      "salinity_psu": 34.35
+    },
+    {
+      "timestamp": "2024-01-09 20:00:00",
+      "temperature_celsius": 23.44,
+      "humidity_percent": 74.94,
+      "pH": 6.89,
+      "salinity_psu": 34.33
+    },
+    {
+      "timestamp": "2024-01-09 21:00:00",
+      "temperature_celsius": 22.82,
+      "humidity_percent": 77.33,
+      "pH": 7.26,
+      "salinity_psu": 33.41
+    },
+    {
+      "timestamp": "2024-01-09 22:00:00",
+      "temperature_celsius": 23.04,
+      "humidity_percent": 76.92,
+      "pH": 7.11,
+      "salinity_psu": 33.59
+    },
+    {
+      "timestamp": "2024-01-09 23:00:00",
+      "temperature_celsius": 22.77,
+      "humidity_percent": 82.74,
+      "pH": 7.1,
+      "salinity_psu": 33.62
+    },
+    {
+      "timestamp": "2024-01-10 00:00:00",
+      "temperature_celsius": 23.02,
+      "humidity_percent": 73.17,
+      "pH": 7.08,
+      "salinity_psu": 33.59
+    },
+    {
+      "timestamp": "2024-01-10 01:00:00",
+      "temperature_celsius": 22.27,
+      "humidity_percent": 76.99,
+      "pH": 7.01,
+      "salinity_psu": 34.61
+    },
+    {
+      "timestamp": "2024-01-10 02:00:00",
+      "temperature_celsius": 22.47,
+      "humidity_percent": 80.81,
+      "pH": 7.07,
+      "salinity_psu": 34.21
+    },
+    {
+      "timestamp": "2024-01-10 03:00:00",
+      "temperature_celsius": 22.78,
+      "humidity_percent": 81.42,
+      "pH": 7.0,
+      "salinity_psu": 34.25
+    },
+    {
+      "timestamp": "2024-01-10 04:00:00",
+      "temperature_celsius": 23.06,
+      "humidity_percent": 77.02,
+      "pH": 7.04,
+      "salinity_psu": 33.74
+    },
+    {
+      "timestamp": "2024-01-10 05:00:00",
+      "temperature_celsius": 23.8,
+      "humidity_percent": 73.71,
+      "pH": 7.03,
+      "salinity_psu": 34.27
+    },
+    {
+      "timestamp": "2024-01-10 06:00:00",
+      "temperature_celsius": 26.39,
+      "humidity_percent": 67.28,
+      "pH": 7.21,
+      "salinity_psu": 33.71
+    },
+    {
+      "timestamp": "2024-01-10 07:00:00",
+      "temperature_celsius": 26.64,
+      "humidity_percent": 71.52,
+      "pH": 7.09,
+      "salinity_psu": 33.71
+    },
+    {
+      "timestamp": "2024-01-10 08:00:00",
+      "temperature_celsius": 29.83,
+      "humidity_percent": 66.27,
+      "pH": 7.01,
+      "salinity_psu": 34.3
+    },
+    {
+      "timestamp": "2024-01-10 09:00:00",
+      "temperature_celsius": 31.85,
+      "humidity_percent": 64.14,
+      "pH": 7.23,
+      "salinity_psu": 34.17
+    },
+    {
+      "timestamp": "2024-01-10 10:00:00",
+      "temperature_celsius": 31.36,
+      "humidity_percent": 66.59,
+      "pH": 7.06,
+      "salinity_psu": 34.49
+    },
+    {
+      "timestamp": "2024-01-10 11:00:00",
+      "temperature_celsius": 30.34,
+      "humidity_percent": 66.56,
+      "pH": 7.13,
+      "salinity_psu": 34.5
+    },
+    {
+      "timestamp": "2024-01-10 12:00:00",
+      "temperature_celsius": 32.17,
+      "humidity_percent": 63.36,
+      "pH": 7.1,
+      "salinity_psu": 33.64
+    },
+    {
+      "timestamp": "2024-01-10 13:00:00",
+      "temperature_celsius": 32.24,
+      "humidity_percent": 62.79,
+      "pH": 6.74,
+      "salinity_psu": 33.23
+    },
+    {
+      "timestamp": "2024-01-10 14:00:00",
+      "temperature_celsius": 32.29,
+      "humidity_percent": 63.51,
+      "pH": 7.08,
+      "salinity_psu": 33.92
+    },
+    {
+      "timestamp": "2024-01-10 15:00:00",
+      "temperature_celsius": 31.74,
+      "humidity_percent": 61.96,
+      "pH": 7.03,
+      "salinity_psu": 33.03
+    },
+    {
+      "timestamp": "2024-01-10 16:00:00",
+      "temperature_celsius": 30.83,
+      "humidity_percent": 68.07,
+      "pH": 7.13,
+      "salinity_psu": 33.86
+    },
+    {
+      "timestamp": "2024-01-10 17:00:00",
+      "temperature_celsius": 27.6,
+      "humidity_percent": 67.37,
+      "pH": 7.32,
+      "salinity_psu": 33.25
+    },
+    {
+      "timestamp": "2024-01-10 18:00:00",
+      "temperature_celsius": 29.06,
+      "humidity_percent": 67.68,
+      "pH": 7.31,
+      "salinity_psu": 32.87
+    },
+    {
+      "timestamp": "2024-01-10 19:00:00",
+      "temperature_celsius": 24.68,
+      "humidity_percent": 78.61,
+      "pH": 7.24,
+      "salinity_psu": 34.1
+    },
+    {
+      "timestamp": "2024-01-10 20:00:00",
+      "temperature_celsius": 23.9,
+      "humidity_percent": 74.99,
+      "pH": 7.37,
+      "salinity_psu": 34.07
+    },
+    {
+      "timestamp": "2024-01-10 21:00:00",
+      "temperature_celsius": 25.0,
+      "humidity_percent": 71.75,
+      "pH": 6.99,
+      "salinity_psu": 33.93
+    },
+    {
+      "timestamp": "2024-01-10 22:00:00",
+      "temperature_celsius": 22.55,
+      "humidity_percent": 77.03,
+      "pH": 7.17,
+      "salinity_psu": 34.47
+    },
+    {
+      "timestamp": "2024-01-10 23:00:00",
+      "temperature_celsius": 21.76,
+      "humidity_percent": 81.17,
+      "pH": 7.11,
+      "salinity_psu": 32.9
+    },
+    {
+      "timestamp": "2024-01-11 00:00:00",
+      "temperature_celsius": 21.04,
+      "humidity_percent": 82.57,
+      "pH": 7.19,
+      "salinity_psu": 33.36
+    },
+    {
+      "timestamp": "2024-01-11 01:00:00",
+      "temperature_celsius": 24.08,
+      "humidity_percent": 74.42,
+      "pH": 7.31,
+      "salinity_psu": 33.36
+    },
+    {
+      "timestamp": "2024-01-11 02:00:00",
+      "temperature_celsius": 23.9,
+      "humidity_percent": 78.48,
+      "pH": 7.3,
+      "salinity_psu": 32.64
+    },
+    {
+      "timestamp": "2024-01-11 03:00:00",
+      "temperature_celsius": 21.77,
+      "humidity_percent": 79.09,
+      "pH": 7.11,
+      "salinity_psu": 32.82
+    },
+    {
+      "timestamp": "2024-01-11 04:00:00",
+      "temperature_celsius": 22.5,
+      "humidity_percent": 77.76,
+      "pH": 7.51,
+      "salinity_psu": 32.83
+    },
+    {
+      "timestamp": "2024-01-11 05:00:00",
+      "temperature_celsius": 26.3,
+      "humidity_percent": 67.53,
+      "pH": 7.14,
+      "salinity_psu": 32.4
+    },
+    {
+      "timestamp": "2024-01-11 06:00:00",
+      "temperature_celsius": 26.04,
+      "humidity_percent": 77.23,
+      "pH": 7.37,
+      "salinity_psu": 32.43
+    },
+    {
+      "timestamp": "2024-01-11 07:00:00",
+      "temperature_celsius": 28.06,
+      "humidity_percent": 70.75,
+      "pH": 7.21,
+      "salinity_psu": 32.89
+    },
+    {
+      "timestamp": "2024-01-11 08:00:00",
+      "temperature_celsius": 30.22,
+      "humidity_percent": 66.84,
+      "pH": 7.63,
+      "salinity_psu": 33.42
+    },
+    {
+      "timestamp": "2024-01-11 09:00:00",
+      "temperature_celsius": 32.24,
+      "humidity_percent": 68.09,
+      "pH": 7.25,
+      "salinity_psu": 32.95
+    },
+    {
+      "timestamp": "2024-01-11 10:00:00",
+      "temperature_celsius": 30.13,
+      "humidity_percent": 66.59,
+      "pH": 7.39,
+      "salinity_psu": 33.45
+    },
+    {
+      "timestamp": "2024-01-11 11:00:00",
+      "temperature_celsius": 32.04,
+      "humidity_percent": 64.22,
+      "pH": 7.72,
+      "salinity_psu": 33.67
+    },
+    {
+      "timestamp": "2024-01-11 12:00:00",
+      "temperature_celsius": 31.54,
+      "humidity_percent": 66.16,
+      "pH": 7.19,
+      "salinity_psu": 32.03
+    },
+    {
+      "timestamp": "2024-01-11 13:00:00",
+      "temperature_celsius": 32.24,
+      "humidity_percent": 60.74,
+      "pH": 7.29,
+      "salinity_psu": 33.05
+    },
+    {
+      "timestamp": "2024-01-11 14:00:00",
+      "temperature_celsius": 30.15,
+      "humidity_percent": 69.81,
+      "pH": 7.47,
+      "salinity_psu": 32.85
+    },
+    {
+      "timestamp": "2024-01-11 15:00:00",
+      "temperature_celsius": 31.02,
+      "humidity_percent": 66.17,
+      "pH": 7.42,
+      "salinity_psu": 32.58
+    },
+    {
+      "timestamp": "2024-01-11 16:00:00",
+      "temperature_celsius": 29.17,
+      "humidity_percent": 69.04,
+      "pH": 7.6,
+      "salinity_psu": 31.89
+    },
+    {
+      "timestamp": "2024-01-11 17:00:00",
+      "temperature_celsius": 27.66,
+      "humidity_percent": 72.71,
+      "pH": 7.47,
+      "salinity_psu": 33.78
+    },
+    {
+      "timestamp": "2024-01-11 18:00:00",
+      "temperature_celsius": 27.48,
+      "humidity_percent": 75.44,
+      "pH": 7.45,
+      "salinity_psu": 33.58
+    },
+    {
+      "timestamp": "2024-01-11 19:00:00",
+      "temperature_celsius": 25.1,
+      "humidity_percent": 70.91,
+      "pH": 7.52,
+      "salinity_psu": 33.4
+    },
+    {
+      "timestamp": "2024-01-11 20:00:00",
+      "temperature_celsius": 24.62,
+      "humidity_percent": 75.7,
+      "pH": 7.36,
+      "salinity_psu": 32.37
+    },
+    {
+      "timestamp": "2024-01-11 21:00:00",
+      "temperature_celsius": 22.48,
+      "humidity_percent": 85.93,
+      "pH": 7.07,
+      "salinity_psu": 32.94
+    },
+    {
+      "timestamp": "2024-01-11 22:00:00",
+      "temperature_celsius": 22.59,
+      "humidity_percent": 82.13,
+      "pH": 7.42,
+      "salinity_psu": 33.69
+    },
+    {
+      "timestamp": "2024-01-11 23:00:00",
+      "temperature_celsius": 21.57,
+      "humidity_percent": 81.92,
+      "pH": 7.11,
+      "salinity_psu": 32.3
+    },
+    {
+      "timestamp": "2024-01-12 00:00:00",
+      "temperature_celsius": 20.81,
+      "humidity_percent": 81.27,
+      "pH": 7.35,
+      "salinity_psu": 33.15
+    },
+    {
+      "timestamp": "2024-01-12 01:00:00",
+      "temperature_celsius": 23.11,
+      "humidity_percent": 79.97,
+      "pH": 7.29,
+      "salinity_psu": 33.44
+    },
+    {
+      "timestamp": "2024-01-12 02:00:00",
+      "temperature_celsius": 22.85,
+      "humidity_percent": 79.24,
+      "pH": 7.43,
+      "salinity_psu": 32.92
+    },
+    {
+      "timestamp": "2024-01-12 03:00:00",
+      "temperature_celsius": 22.27,
+      "humidity_percent": 83.05,
+      "pH": 7.23,
+      "salinity_psu": 33.91
+    },
+    {
+      "timestamp": "2024-01-12 04:00:00",
+      "temperature_celsius": 23.99,
+      "humidity_percent": 80.04,
+      "pH": 7.65,
+      "salinity_psu": 32.92
+    },
+    {
+      "timestamp": "2024-01-12 05:00:00",
+      "temperature_celsius": 25.76,
+      "humidity_percent": 74.44,
+      "pH": 7.36,
+      "salinity_psu": 33.0
+    },
+    {
+      "timestamp": "2024-01-12 06:00:00",
+      "temperature_celsius": 26.65,
+      "humidity_percent": 75.82,
+      "pH": 7.45,
+      "salinity_psu": 32.97
+    },
+    {
+      "timestamp": "2024-01-12 07:00:00",
+      "temperature_celsius": 28.06,
+      "humidity_percent": 67.51,
+      "pH": 7.45,
+      "salinity_psu": 32.37
+    },
+    {
+      "timestamp": "2024-01-12 08:00:00",
+      "temperature_celsius": 28.49,
+      "humidity_percent": 71.25,
+      "pH": 7.28,
+      "salinity_psu": 34.27
+    },
+    {
+      "timestamp": "2024-01-12 09:00:00",
+      "temperature_celsius": 30.3,
+      "humidity_percent": 69.0,
+      "pH": 7.63,
+      "salinity_psu": 32.04
+    },
+    {
+      "timestamp": "2024-01-12 10:00:00",
+      "temperature_celsius": 32.04,
+      "humidity_percent": 62.54,
+      "pH": 7.46,
+      "salinity_psu": 33.39
+    },
+    {
+      "timestamp": "2024-01-12 11:00:00",
+      "temperature_celsius": 31.21,
+      "humidity_percent": 64.37,
+      "pH": 7.36,
+      "salinity_psu": 32.87
+    },
+    {
+      "timestamp": "2024-01-12 12:00:00",
+      "temperature_celsius": 30.05,
+      "humidity_percent": 68.45,
+      "pH": 7.5,
+      "salinity_psu": 32.98
+    },
+    {
+      "timestamp": "2024-01-12 13:00:00",
+      "temperature_celsius": 33.92,
+      "humidity_percent": 64.53,
+      "pH": 7.24,
+      "salinity_psu": 32.99
+    },
+    {
+      "timestamp": "2024-01-12 14:00:00",
+      "temperature_celsius": 30.35,
+      "humidity_percent": 63.95,
+      "pH": 7.25,
+      "salinity_psu": 33.83
+    },
+    {
+      "timestamp": "2024-01-12 15:00:00",
+      "temperature_celsius": 30.19,
+      "humidity_percent": 68.26,
+      "pH": 7.43,
+      "salinity_psu": 34.37
+    },
+    {
+      "timestamp": "2024-01-12 16:00:00",
+      "temperature_celsius": 30.37,
+      "humidity_percent": 62.2,
+      "pH": 7.18,
+      "salinity_psu": 33.62
+    },
+    {
+      "timestamp": "2024-01-12 17:00:00",
+      "temperature_celsius": 27.87,
+      "humidity_percent": 71.45,
+      "pH": 7.72,
+      "salinity_psu": 33.05
+    },
+    {
+      "timestamp": "2024-01-12 18:00:00",
+      "temperature_celsius": 27.88,
+      "humidity_percent": 67.89,
+      "pH": 7.46,
+      "salinity_psu": 32.11
+    },
+    {
+      "timestamp": "2024-01-12 19:00:00",
+      "temperature_celsius": 24.88,
+      "humidity_percent": 72.94,
+      "pH": 7.44,
+      "salinity_psu": 33.38
+    },
+    {
+      "timestamp": "2024-01-12 20:00:00",
+      "temperature_celsius": 25.17,
+      "humidity_percent": 75.49,
+      "pH": 7.35,
+      "salinity_psu": 33.78
+    },
+    {
+      "timestamp": "2024-01-12 21:00:00",
+      "temperature_celsius": 24.42,
+      "humidity_percent": 74.72,
+      "pH": 7.59,
+      "salinity_psu": 31.83
+    },
+    {
+      "timestamp": "2024-01-12 22:00:00",
+      "temperature_celsius": 22.44,
+      "humidity_percent": 82.42,
+      "pH": 7.5,
+      "salinity_psu": 33.18
+    },
+    {
+      "timestamp": "2024-01-12 23:00:00",
+      "temperature_celsius": 21.42,
+      "humidity_percent": 80.55,
+      "pH": 7.59,
+      "salinity_psu": 32.65
+    },
+    {
+      "timestamp": "2024-01-13 00:00:00",
+      "temperature_celsius": 21.96,
+      "humidity_percent": 76.77,
+      "pH": 7.44,
+      "salinity_psu": 32.47
+    },
+    {
+      "timestamp": "2024-01-13 01:00:00",
+      "temperature_celsius": 20.68,
+      "humidity_percent": 81.62,
+      "pH": 7.81,
+      "salinity_psu": 33.17
+    },
+    {
+      "timestamp": "2024-01-13 02:00:00",
+      "temperature_celsius": 22.31,
+      "humidity_percent": 75.47,
+      "pH": 7.43,
+      "salinity_psu": 32.3
+    },
+    {
+      "timestamp": "2024-01-13 03:00:00",
+      "temperature_celsius": 25.85,
+      "humidity_percent": 74.41,
+      "pH": 7.53,
+      "salinity_psu": 32.72
+    },
+    {
+      "timestamp": "2024-01-13 04:00:00",
+      "temperature_celsius": 23.13,
+      "humidity_percent": 77.94,
+      "pH": 7.53,
+      "salinity_psu": 32.97
+    },
+    {
+      "timestamp": "2024-01-13 05:00:00",
+      "temperature_celsius": 26.84,
+      "humidity_percent": 67.48,
+      "pH": 7.26,
+      "salinity_psu": 32.45
+    },
+    {
+      "timestamp": "2024-01-13 06:00:00",
+      "temperature_celsius": 27.45,
+      "humidity_percent": 69.98,
+      "pH": 7.73,
+      "salinity_psu": 32.67
+    },
+    {
+      "timestamp": "2024-01-13 07:00:00",
+      "temperature_celsius": 27.79,
+      "humidity_percent": 69.0,
+      "pH": 7.63,
+      "salinity_psu": 33.0
+    },
+    {
+      "timestamp": "2024-01-13 08:00:00",
+      "temperature_celsius": 30.06,
+      "humidity_percent": 68.19,
+      "pH": 7.32,
+      "salinity_psu": 32.67
+    },
+    {
+      "timestamp": "2024-01-13 09:00:00",
+      "temperature_celsius": 29.49,
+      "humidity_percent": 71.03,
+      "pH": 7.28,
+      "salinity_psu": 32.73
+    },
+    {
+      "timestamp": "2024-01-13 10:00:00",
+      "temperature_celsius": 31.9,
+      "humidity_percent": 63.01,
+      "pH": 7.45,
+      "salinity_psu": 34.04
+    },
+    {
+      "timestamp": "2024-01-13 11:00:00",
+      "temperature_celsius": 31.03,
+      "humidity_percent": 67.61,
+      "pH": 7.54,
+      "salinity_psu": 33.79
+    },
+    {
+      "timestamp": "2024-01-13 12:00:00",
+      "temperature_celsius": 32.14,
+      "humidity_percent": 64.62,
+      "pH": 7.63,
+      "salinity_psu": 32.93
+    },
+    {
+      "timestamp": "2024-01-13 13:00:00",
+      "temperature_celsius": 32.46,
+      "humidity_percent": 61.94,
+      "pH": 7.98,
+      "salinity_psu": 33.43
+    },
+    {
+      "timestamp": "2024-01-13 14:00:00",
+      "temperature_celsius": 31.36,
+      "humidity_percent": 64.66,
+      "pH": 7.41,
+      "salinity_psu": 32.97
+    },
+    {
+      "timestamp": "2024-01-13 15:00:00",
+      "temperature_celsius": 28.93,
+      "humidity_percent": 70.29,
+      "pH": 7.75,
+      "salinity_psu": 32.52
+    },
+    {
+      "timestamp": "2024-01-13 16:00:00",
+      "temperature_celsius": 30.97,
+      "humidity_percent": 65.59,
+      "pH": 7.56,
+      "salinity_psu": 32.79
+    },
+    {
+      "timestamp": "2024-01-13 17:00:00",
+      "temperature_celsius": 29.79,
+      "humidity_percent": 73.2,
+      "pH": 7.44,
+      "salinity_psu": 34.46
+    },
+    {
+      "timestamp": "2024-01-13 18:00:00",
+      "temperature_celsius": 27.71,
+      "humidity_percent": 73.98,
+      "pH": 7.39,
+      "salinity_psu": 32.8
+    },
+    {
+      "timestamp": "2024-01-13 19:00:00",
+      "temperature_celsius": 25.63,
+      "humidity_percent": 72.53,
+      "pH": 7.46,
+      "salinity_psu": 33.86
+    },
+    {
+      "timestamp": "2024-01-13 20:00:00",
+      "temperature_celsius": 24.78,
+      "humidity_percent": 78.89,
+      "pH": 7.6,
+      "salinity_psu": 34.11
+    },
+    {
+      "timestamp": "2024-01-13 21:00:00",
+      "temperature_celsius": 24.18,
+      "humidity_percent": 74.79,
+      "pH": 7.4,
+      "salinity_psu": 33.04
+    },
+    {
+      "timestamp": "2024-01-13 22:00:00",
+      "temperature_celsius": 21.81,
+      "humidity_percent": 70.83,
+      "pH": 7.64,
+      "salinity_psu": 33.74
+    },
+    {
+      "timestamp": "2024-01-13 23:00:00",
+      "temperature_celsius": 20.23,
+      "humidity_percent": 83.04,
+      "pH": 7.54,
+      "salinity_psu": 34.21
+    },
+    {
+      "timestamp": "2024-01-14 00:00:00",
+      "temperature_celsius": 22.3,
+      "humidity_percent": 80.76,
+      "pH": 7.54,
+      "salinity_psu": 33.16
+    },
+    {
+      "timestamp": "2024-01-14 01:00:00",
+      "temperature_celsius": 23.21,
+      "humidity_percent": 78.09,
+      "pH": 7.13,
+      "salinity_psu": 33.46
+    },
+    {
+      "timestamp": "2024-01-14 02:00:00",
+      "temperature_celsius": 22.44,
+      "humidity_percent": 76.73,
+      "pH": 7.65,
+      "salinity_psu": 33.93
+    },
+    {
+      "timestamp": "2024-01-14 03:00:00",
+      "temperature_celsius": 24.05,
+      "humidity_percent": 78.92,
+      "pH": 7.3,
+      "salinity_psu": 33.28
+    },
+    {
+      "timestamp": "2024-01-14 04:00:00",
+      "temperature_celsius": 27.22,
+      "humidity_percent": 69.4,
+      "pH": 7.27,
+      "salinity_psu": 32.54
+    },
+    {
+      "timestamp": "2024-01-14 05:00:00",
+      "temperature_celsius": 26.72,
+      "humidity_percent": 71.75,
+      "pH": 7.45,
+      "salinity_psu": 33.63
+    },
+    {
+      "timestamp": "2024-01-14 06:00:00",
+      "temperature_celsius": 27.85,
+      "humidity_percent": 67.65,
+      "pH": 7.49,
+      "salinity_psu": 33.58
+    },
+    {
+      "timestamp": "2024-01-14 07:00:00",
+      "temperature_celsius": 28.2,
+      "humidity_percent": 71.72,
+      "pH": 7.66,
+      "salinity_psu": 34.17
+    },
+    {
+      "timestamp": "2024-01-14 08:00:00",
+      "temperature_celsius": 31.09,
+      "humidity_percent": 60.14,
+      "pH": 7.43,
+      "salinity_psu": 33.66
+    },
+    {
+      "timestamp": "2024-01-14 09:00:00",
+      "temperature_celsius": 29.82,
+      "humidity_percent": 67.95,
+      "pH": 7.46,
+      "salinity_psu": 34.47
+    },
+    {
+      "timestamp": "2024-01-14 10:00:00",
+      "temperature_celsius": 31.27,
+      "humidity_percent": 68.49,
+      "pH": 7.15,
+      "salinity_psu": 32.87
+    },
+    {
+      "timestamp": "2024-01-14 11:00:00",
+      "temperature_celsius": 32.67,
+      "humidity_percent": 64.92,
+      "pH": 7.45,
+      "salinity_psu": 33.71
+    },
+    {
+      "timestamp": "2024-01-14 12:00:00",
+      "temperature_celsius": 30.17,
+      "humidity_percent": 65.34,
+      "pH": 7.1,
+      "salinity_psu": 33.86
+    },
+    {
+      "timestamp": "2024-01-14 13:00:00",
+      "temperature_celsius": 32.43,
+      "humidity_percent": 56.88,
+      "pH": 7.69,
+      "salinity_psu": 33.87
+    },
+    {
+      "timestamp": "2024-01-14 14:00:00",
+      "temperature_celsius": 31.33,
+      "humidity_percent": 63.57,
+      "pH": 7.59,
+      "salinity_psu": 33.97
+    },
+    {
+      "timestamp": "2024-01-14 15:00:00",
+      "temperature_celsius": 31.86,
+      "humidity_percent": 63.62,
+      "pH": 7.42,
+      "salinity_psu": 33.9
+    },
+    {
+      "timestamp": "2024-01-14 16:00:00",
+      "temperature_celsius": 30.14,
+      "humidity_percent": 70.66,
+      "pH": 7.66,
+      "salinity_psu": 34.75
+    },
+    {
+      "timestamp": "2024-01-14 17:00:00",
+      "temperature_celsius": 27.56,
+      "humidity_percent": 75.59,
+      "pH": 7.31,
+      "salinity_psu": 34.96
+    },
+    {
+      "timestamp": "2024-01-14 18:00:00",
+      "temperature_celsius": 28.6,
+      "humidity_percent": 61.7,
+      "pH": 7.46,
+      "salinity_psu": 33.77
+    },
+    {
+      "timestamp": "2024-01-14 19:00:00",
+      "temperature_celsius": 26.3,
+      "humidity_percent": 73.31,
+      "pH": 7.58,
+      "salinity_psu": 33.45
+    },
+    {
+      "timestamp": "2024-01-14 20:00:00",
+      "temperature_celsius": 24.81,
+      "humidity_percent": 75.38,
+      "pH": 7.56,
+      "salinity_psu": 34.02
+    },
+    {
+      "timestamp": "2024-01-14 21:00:00",
+      "temperature_celsius": 24.0,
+      "humidity_percent": 80.13,
+      "pH": 7.32,
+      "salinity_psu": 33.62
+    },
+    {
+      "timestamp": "2024-01-14 22:00:00",
+      "temperature_celsius": 21.63,
+      "humidity_percent": 80.07,
+      "pH": 7.41,
+      "salinity_psu": 34.04
+    },
+    {
+      "timestamp": "2024-01-14 23:00:00",
+      "temperature_celsius": 20.8,
+      "humidity_percent": 83.62,
+      "pH": 7.78,
+      "salinity_psu": 34.42
+    },
+    {
+      "timestamp": "2024-01-15 00:00:00",
+      "temperature_celsius": 21.85,
+      "humidity_percent": 76.83,
+      "pH": 7.08,
+      "salinity_psu": 34.56
+    },
+    {
+      "timestamp": "2024-01-15 01:00:00",
+      "temperature_celsius": 22.47,
+      "humidity_percent": 73.48,
+      "pH": 7.31,
+      "salinity_psu": 33.8
+    },
+    {
+      "timestamp": "2024-01-15 02:00:00",
+      "temperature_celsius": 23.82,
+      "humidity_percent": 74.73,
+      "pH": 7.41,
+      "salinity_psu": 34.19
+    },
+    {
+      "timestamp": "2024-01-15 03:00:00",
+      "temperature_celsius": 25.53,
+      "humidity_percent": 72.86,
+      "pH": 7.54,
+      "salinity_psu": 33.66
+    },
+    {
+      "timestamp": "2024-01-15 04:00:00",
+      "temperature_celsius": 25.87,
+      "humidity_percent": 71.5,
+      "pH": 7.33,
+      "salinity_psu": 34.86
+    },
+    {
+      "timestamp": "2024-01-15 05:00:00",
+      "temperature_celsius": 26.2,
+      "humidity_percent": 78.75,
+      "pH": 7.32,
+      "salinity_psu": 33.63
+    },
+    {
+      "timestamp": "2024-01-15 06:00:00",
+      "temperature_celsius": 28.84,
+      "humidity_percent": 71.59,
+      "pH": 7.45,
+      "salinity_psu": 34.42
+    },
+    {
+      "timestamp": "2024-01-15 07:00:00",
+      "temperature_celsius": 28.73,
+      "humidity_percent": 71.87,
+      "pH": 7.18,
+      "salinity_psu": 34.61
+    },
+    {
+      "timestamp": "2024-01-15 08:00:00",
+      "temperature_celsius": 30.13,
+      "humidity_percent": 66.55,
+      "pH": 7.27,
+      "salinity_psu": 33.83
+    },
+    {
+      "timestamp": "2024-01-15 09:00:00",
+      "temperature_celsius": 31.08,
+      "humidity_percent": 64.24,
+      "pH": 7.25,
+      "salinity_psu": 34.81
+    },
+    {
+      "timestamp": "2024-01-15 10:00:00",
+      "temperature_celsius": 33.34,
+      "humidity_percent": 57.82,
+      "pH": 7.28,
+      "salinity_psu": 34.76
+    },
+    {
+      "timestamp": "2024-01-15 11:00:00",
+      "temperature_celsius": 31.73,
+      "humidity_percent": 66.54,
+      "pH": 7.22,
+      "salinity_psu": 34.56
+    },
+    {
+      "timestamp": "2024-01-15 12:00:00",
+      "temperature_celsius": 33.06,
+      "humidity_percent": 68.15,
+      "pH": 7.55,
+      "salinity_psu": 34.88
+    },
+    {
+      "timestamp": "2024-01-15 13:00:00",
+      "temperature_celsius": 33.45,
+      "humidity_percent": 59.97,
+      "pH": 7.33,
+      "salinity_psu": 35.17
+    },
+    {
+      "timestamp": "2024-01-15 14:00:00",
+      "temperature_celsius": 31.35,
+      "humidity_percent": 62.45,
+      "pH": 6.71,
+      "salinity_psu": 34.68
+    },
+    {
+      "timestamp": "2024-01-15 15:00:00",
+      "temperature_celsius": 29.84,
+      "humidity_percent": 67.41,
+      "pH": 7.22,
+      "salinity_psu": 34.53
+    },
+    {
+      "timestamp": "2024-01-15 16:00:00",
+      "temperature_celsius": 30.0,
+      "humidity_percent": 68.92,
+      "pH": 7.27,
+      "salinity_psu": 35.41
+    },
+    {
+      "timestamp": "2024-01-15 17:00:00",
+      "temperature_celsius": 29.5,
+      "humidity_percent": 67.16,
+      "pH": 7.21,
+      "salinity_psu": 34.99
+    },
+    {
+      "timestamp": "2024-01-15 18:00:00",
+      "temperature_celsius": 27.98,
+      "humidity_percent": 74.24,
+      "pH": 6.93,
+      "salinity_psu": 34.76
+    },
+    {
+      "timestamp": "2024-01-15 19:00:00",
+      "temperature_celsius": 25.01,
+      "humidity_percent": 75.27,
+      "pH": 6.93,
+      "salinity_psu": 35.37
+    },
+    {
+      "timestamp": "2024-01-15 20:00:00",
+      "temperature_celsius": 23.98,
+      "humidity_percent": 78.28,
+      "pH": 7.22,
+      "salinity_psu": 34.3
+    },
+    {
+      "timestamp": "2024-01-15 21:00:00",
+      "temperature_celsius": 23.61,
+      "humidity_percent": 78.53,
+      "pH": 7.07,
+      "salinity_psu": 34.35
+    },
+    {
+      "timestamp": "2024-01-15 22:00:00",
+      "temperature_celsius": 20.92,
+      "humidity_percent": 81.49,
+      "pH": 7.23,
+      "salinity_psu": 34.51
+    },
+    {
+      "timestamp": "2024-01-15 23:00:00",
+      "temperature_celsius": 24.32,
+      "humidity_percent": 75.93,
+      "pH": 7.06,
+      "salinity_psu": 35.18
+    },
+    {
+      "timestamp": "2024-01-16 00:00:00",
+      "temperature_celsius": 22.37,
+      "humidity_percent": 77.79,
+      "pH": 7.08,
+      "salinity_psu": 34.69
+    },
+    {
+      "timestamp": "2024-01-16 01:00:00",
+      "temperature_celsius": 22.52,
+      "humidity_percent": 72.67,
+      "pH": 7.02,
+      "salinity_psu": 35.15
+    },
+    {
+      "timestamp": "2024-01-16 02:00:00",
+      "temperature_celsius": 23.13,
+      "humidity_percent": 84.57,
+      "pH": 7.07,
+      "salinity_psu": 34.54
+    },
+    {
+      "timestamp": "2024-01-16 03:00:00",
+      "temperature_celsius": 24.05,
+      "humidity_percent": 75.0,
+      "pH": 7.4,
+      "salinity_psu": 35.31
+    },
+    {
+      "timestamp": "2024-01-16 04:00:00",
+      "temperature_celsius": 25.11,
+      "humidity_percent": 79.58,
+      "pH": 7.11,
+      "salinity_psu": 35.22
+    },
+    {
+      "timestamp": "2024-01-16 05:00:00",
+      "temperature_celsius": 25.63,
+      "humidity_percent": 68.18,
+      "pH": 7.06,
+      "salinity_psu": 35.97
+    },
+    {
+      "timestamp": "2024-01-16 06:00:00",
+      "temperature_celsius": 28.91,
+      "humidity_percent": 68.24,
+      "pH": 7.19,
+      "salinity_psu": 35.66
+    },
+    {
+      "timestamp": "2024-01-16 07:00:00",
+      "temperature_celsius": 29.61,
+      "humidity_percent": 71.28,
+      "pH": 7.25,
+      "salinity_psu": 35.56
+    },
+    {
+      "timestamp": "2024-01-16 08:00:00",
+      "temperature_celsius": 32.64,
+      "humidity_percent": 62.25,
+      "pH": 6.97,
+      "salinity_psu": 35.73
+    },
+    {
+      "timestamp": "2024-01-16 09:00:00",
+      "temperature_celsius": 31.21,
+      "humidity_percent": 59.42,
+      "pH": 7.12,
+      "salinity_psu": 35.17
+    },
+    {
+      "timestamp": "2024-01-16 10:00:00",
+      "temperature_celsius": 32.92,
+      "humidity_percent": 67.1,
+      "pH": 7.07,
+      "salinity_psu": 34.58
+    },
+    {
+      "timestamp": "2024-01-16 11:00:00",
+      "temperature_celsius": 31.93,
+      "humidity_percent": 68.39,
+      "pH": 6.96,
+      "salinity_psu": 35.42
+    },
+    {
+      "timestamp": "2024-01-16 12:00:00",
+      "temperature_celsius": 34.08,
+      "humidity_percent": 61.35,
+      "pH": 7.27,
+      "salinity_psu": 34.98
+    },
+    {
+      "timestamp": "2024-01-16 13:00:00",
+      "temperature_celsius": 30.71,
+      "humidity_percent": 65.57,
+      "pH": 7.16,
+      "salinity_psu": 35.86
+    },
+    {
+      "timestamp": "2024-01-16 14:00:00",
+      "temperature_celsius": 33.11,
+      "humidity_percent": 58.92,
+      "pH": 6.89,
+      "salinity_psu": 35.8
+    },
+    {
+      "timestamp": "2024-01-16 15:00:00",
+      "temperature_celsius": 31.03,
+      "humidity_percent": 63.02,
+      "pH": 7.17,
+      "salinity_psu": 35.29
+    },
+    {
+      "timestamp": "2024-01-16 16:00:00",
+      "temperature_celsius": 29.52,
+      "humidity_percent": 66.05,
+      "pH": 6.93,
+      "salinity_psu": 35.75
+    },
+    {
+      "timestamp": "2024-01-16 17:00:00",
+      "temperature_celsius": 29.45,
+      "humidity_percent": 68.35,
+      "pH": 6.84,
+      "salinity_psu": 35.38
+    },
+    {
+      "timestamp": "2024-01-16 18:00:00",
+      "temperature_celsius": 26.91,
+      "humidity_percent": 73.26,
+      "pH": 7.09,
+      "salinity_psu": 35.9
+    },
+    {
+      "timestamp": "2024-01-16 19:00:00",
+      "temperature_celsius": 25.11,
+      "humidity_percent": 73.94,
+      "pH": 7.0,
+      "salinity_psu": 35.1
+    },
+    {
+      "timestamp": "2024-01-16 20:00:00",
+      "temperature_celsius": 23.74,
+      "humidity_percent": 78.69,
+      "pH": 7.18,
+      "salinity_psu": 35.1
+    },
+    {
+      "timestamp": "2024-01-16 21:00:00",
+      "temperature_celsius": 24.87,
+      "humidity_percent": 80.53,
+      "pH": 7.0,
+      "salinity_psu": 36.24
+    },
+    {
+      "timestamp": "2024-01-16 22:00:00",
+      "temperature_celsius": 23.31,
+      "humidity_percent": 83.41,
+      "pH": 7.11,
+      "salinity_psu": 35.45
+    },
+    {
+      "timestamp": "2024-01-16 23:00:00",
+      "temperature_celsius": 24.08,
+      "humidity_percent": 79.04,
+      "pH": 7.35,
+      "salinity_psu": 35.6
+    },
+    {
+      "timestamp": "2024-01-17 00:00:00",
+      "temperature_celsius": 19.26,
+      "humidity_percent": 83.91,
+      "pH": 7.02,
+      "salinity_psu": 35.34
+    },
+    {
+      "timestamp": "2024-01-17 01:00:00",
+      "temperature_celsius": 22.95,
+      "humidity_percent": 74.11,
+      "pH": 7.21,
+      "salinity_psu": 36.49
+    },
+    {
+      "timestamp": "2024-01-17 02:00:00",
+      "temperature_celsius": 24.07,
+      "humidity_percent": 75.43,
+      "pH": 7.14,
+      "salinity_psu": 35.16
+    },
+    {
+      "timestamp": "2024-01-17 03:00:00",
+      "temperature_celsius": 24.17,
+      "humidity_percent": 73.95,
+      "pH": 7.12,
+      "salinity_psu": 35.78
+    },
+    {
+      "timestamp": "2024-01-17 04:00:00",
+      "temperature_celsius": 25.79,
+      "humidity_percent": 78.7,
+      "pH": 6.87,
+      "salinity_psu": 36.07
+    },
+    {
+      "timestamp": "2024-01-17 05:00:00",
+      "temperature_celsius": 24.81,
+      "humidity_percent": 76.23,
+      "pH": 6.7,
+      "salinity_psu": 36.21
+    },
+    {
+      "timestamp": "2024-01-17 06:00:00",
+      "temperature_celsius": 27.53,
+      "humidity_percent": 70.21,
+      "pH": 6.83,
+      "salinity_psu": 36.35
+    },
+    {
+      "timestamp": "2024-01-17 07:00:00",
+      "temperature_celsius": 27.74,
+      "humidity_percent": 75.27,
+      "pH": 7.11,
+      "salinity_psu": 34.91
+    },
+    {
+      "timestamp": "2024-01-17 08:00:00",
+      "temperature_celsius": 31.51,
+      "humidity_percent": 62.58,
+      "pH": 6.91,
+      "salinity_psu": 35.91
+    },
+    {
+      "timestamp": "2024-01-17 09:00:00",
+      "temperature_celsius": 31.65,
+      "humidity_percent": 66.0,
+      "pH": 6.93,
+      "salinity_psu": 36.44
+    },
+    {
+      "timestamp": "2024-01-17 10:00:00",
+      "temperature_celsius": 31.57,
+      "humidity_percent": 62.17,
+      "pH": 7.24,
+      "salinity_psu": 36.17
+    },
+    {
+      "timestamp": "2024-01-17 11:00:00",
+      "temperature_celsius": 31.52,
+      "humidity_percent": 68.89,
+      "pH": 7.11,
+      "salinity_psu": 35.97
+    },
+    {
+      "timestamp": "2024-01-17 12:00:00",
+      "temperature_celsius": 33.3,
+      "humidity_percent": 60.26,
+      "pH": 7.03,
+      "salinity_psu": 36.12
+    },
+    {
+      "timestamp": "2024-01-17 13:00:00",
+      "temperature_celsius": 30.93,
+      "humidity_percent": 68.04,
+      "pH": 6.97,
+      "salinity_psu": 36.0
+    },
+    {
+      "timestamp": "2024-01-17 14:00:00",
+      "temperature_celsius": 30.89,
+      "humidity_percent": 68.44,
+      "pH": 7.19,
+      "salinity_psu": 36.93
+    },
+    {
+      "timestamp": "2024-01-17 15:00:00",
+      "temperature_celsius": 31.96,
+      "humidity_percent": 64.64,
+      "pH": 6.91,
+      "salinity_psu": 36.62
+    },
+    {
+      "timestamp": "2024-01-17 16:00:00",
+      "temperature_celsius": 29.84,
+      "humidity_percent": 68.38,
+      "pH": 6.85,
+      "salinity_psu": 35.79
+    },
+    {
+      "timestamp": "2024-01-17 17:00:00",
+      "temperature_celsius": 27.41,
+      "humidity_percent": 67.66,
+      "pH": 6.71,
+      "salinity_psu": 36.55
+    },
+    {
+      "timestamp": "2024-01-17 18:00:00",
+      "temperature_celsius": 28.84,
+      "humidity_percent": 70.12,
+      "pH": 7.04,
+      "salinity_psu": 36.66
+    },
+    {
+      "timestamp": "2024-01-17 19:00:00",
+      "temperature_celsius": 27.88,
+      "humidity_percent": 70.83,
+      "pH": 7.18,
+      "salinity_psu": 36.94
+    },
+    {
+      "timestamp": "2024-01-17 20:00:00",
+      "temperature_celsius": 25.51,
+      "humidity_percent": 71.6,
+      "pH": 6.73,
+      "salinity_psu": 36.35
+    },
+    {
+      "timestamp": "2024-01-17 21:00:00",
+      "temperature_celsius": 25.57,
+      "humidity_percent": 71.74,
+      "pH": 7.1,
+      "salinity_psu": 36.36
+    },
+    {
+      "timestamp": "2024-01-17 22:00:00",
+      "temperature_celsius": 24.27,
+      "humidity_percent": 75.81,
+      "pH": 6.91,
+      "salinity_psu": 34.46
+    },
+    {
+      "timestamp": "2024-01-17 23:00:00",
+      "temperature_celsius": 22.3,
+      "humidity_percent": 70.74,
+      "pH": 6.98,
+      "salinity_psu": 36.23
+    },
+    {
+      "timestamp": "2024-01-18 00:00:00",
+      "temperature_celsius": 22.05,
+      "humidity_percent": 77.72,
+      "pH": 6.9,
+      "salinity_psu": 37.35
+    },
+    {
+      "timestamp": "2024-01-18 01:00:00",
+      "temperature_celsius": 22.06,
+      "humidity_percent": 77.69,
+      "pH": 6.85,
+      "salinity_psu": 36.07
+    },
+    {
+      "timestamp": "2024-01-18 02:00:00",
+      "temperature_celsius": 23.92,
+      "humidity_percent": 70.73,
+      "pH": 6.92,
+      "salinity_psu": 36.32
+    },
+    {
+      "timestamp": "2024-01-18 03:00:00",
+      "temperature_celsius": 23.31,
+      "humidity_percent": 75.67,
+      "pH": 7.12,
+      "salinity_psu": 36.86
+    },
+    {
+      "timestamp": "2024-01-18 04:00:00",
+      "temperature_celsius": 24.52,
+      "humidity_percent": 80.0,
+      "pH": 6.69,
+      "salinity_psu": 36.47
+    },
+    {
+      "timestamp": "2024-01-18 05:00:00",
+      "temperature_celsius": 24.66,
+      "humidity_percent": 80.27,
+      "pH": 6.63,
+      "salinity_psu": 35.88
+    },
+    {
+      "timestamp": "2024-01-18 06:00:00",
+      "temperature_celsius": 27.32,
+      "humidity_percent": 77.09,
+      "pH": 6.83,
+      "salinity_psu": 36.76
+    },
+    {
+      "timestamp": "2024-01-18 07:00:00",
+      "temperature_celsius": 30.41,
+      "humidity_percent": 66.41,
+      "pH": 6.88,
+      "salinity_psu": 36.63
+    },
+    {
+      "timestamp": "2024-01-18 08:00:00",
+      "temperature_celsius": 31.34,
+      "humidity_percent": 66.02,
+      "pH": 6.67,
+      "salinity_psu": 37.47
+    },
+    {
+      "timestamp": "2024-01-18 09:00:00",
+      "temperature_celsius": 31.91,
+      "humidity_percent": 61.55,
+      "pH": 6.85,
+      "salinity_psu": 36.5
+    },
+    {
+      "timestamp": "2024-01-18 10:00:00",
+      "temperature_celsius": 31.16,
+      "humidity_percent": 64.06,
+      "pH": 6.82,
+      "salinity_psu": 36.86
+    },
+    {
+      "timestamp": "2024-01-18 11:00:00",
+      "temperature_celsius": 34.4,
+      "humidity_percent": 56.7,
+      "pH": 6.74,
+      "salinity_psu": 37.24
+    },
+    {
+      "timestamp": "2024-01-18 12:00:00",
+      "temperature_celsius": 32.68,
+      "humidity_percent": 66.42,
+      "pH": 6.88,
+      "salinity_psu": 37.15
+    },
+    {
+      "timestamp": "2024-01-18 13:00:00",
+      "temperature_celsius": 32.31,
+      "humidity_percent": 65.99,
+      "pH": 6.93,
+      "salinity_psu": 36.8
+    },
+    {
+      "timestamp": "2024-01-18 14:00:00",
+      "temperature_celsius": 33.14,
+      "humidity_percent": 60.22,
+      "pH": 6.74,
+      "salinity_psu": 37.0
+    },
+    {
+      "timestamp": "2024-01-18 15:00:00",
+      "temperature_celsius": 29.38,
+      "humidity_percent": 71.12,
+      "pH": 6.89,
+      "salinity_psu": 36.46
+    },
+    {
+      "timestamp": "2024-01-18 16:00:00",
+      "temperature_celsius": 31.2,
+      "humidity_percent": 67.69,
+      "pH": 6.81,
+      "salinity_psu": 36.57
+    },
+    {
+      "timestamp": "2024-01-18 17:00:00",
+      "temperature_celsius": 30.06,
+      "humidity_percent": 65.97,
+      "pH": 6.66,
+      "salinity_psu": 35.89
+    },
+    {
+      "timestamp": "2024-01-18 18:00:00",
+      "temperature_celsius": 28.08,
+      "humidity_percent": 73.36,
+      "pH": 7.08,
+      "salinity_psu": 37.38
+    },
+    {
+      "timestamp": "2024-01-18 19:00:00",
+      "temperature_celsius": 26.69,
+      "humidity_percent": 72.52,
+      "pH": 6.82,
+      "salinity_psu": 36.48
+    },
+    {
+      "timestamp": "2024-01-18 20:00:00",
+      "temperature_celsius": 25.56,
+      "humidity_percent": 69.37,
+      "pH": 7.16,
+      "salinity_psu": 37.44
+    },
+    {
+      "timestamp": "2024-01-18 21:00:00",
+      "temperature_celsius": 24.09,
+      "humidity_percent": 76.06,
+      "pH": 7.06,
+      "salinity_psu": 36.15
+    },
+    {
+      "timestamp": "2024-01-18 22:00:00",
+      "temperature_celsius": 23.33,
+      "humidity_percent": 77.99,
+      "pH": 6.72,
+      "salinity_psu": 37.44
+    },
+    {
+      "timestamp": "2024-01-18 23:00:00",
+      "temperature_celsius": 24.39,
+      "humidity_percent": 80.29,
+      "pH": 6.92,
+      "salinity_psu": 36.4
+    },
+    {
+      "timestamp": "2024-01-19 00:00:00",
+      "temperature_celsius": 21.41,
+      "humidity_percent": 79.31,
+      "pH": 7.1,
+      "salinity_psu": 36.07
+    },
+    {
+      "timestamp": "2024-01-19 01:00:00",
+      "temperature_celsius": 22.39,
+      "humidity_percent": 79.84,
+      "pH": 7.21,
+      "salinity_psu": 37.29
+    },
+    {
+      "timestamp": "2024-01-19 02:00:00",
+      "temperature_celsius": 26.14,
+      "humidity_percent": 77.25,
+      "pH": 6.77,
+      "salinity_psu": 37.72
+    },
+    {
+      "timestamp": "2024-01-19 03:00:00",
+      "temperature_celsius": 25.57,
+      "humidity_percent": 74.69,
+      "pH": 6.63,
+      "salinity_psu": 36.99
+    },
+    {
+      "timestamp": "2024-01-19 04:00:00",
+      "temperature_celsius": 26.52,
+      "humidity_percent": 74.34,
+      "pH": 6.73,
+      "salinity_psu": 37.35
+    },
+    {
+      "timestamp": "2024-01-19 05:00:00",
+      "temperature_celsius": 26.51,
+      "humidity_percent": 76.25,
+      "pH": 6.98,
+      "salinity_psu": 37.19
+    },
+    {
+      "timestamp": "2024-01-19 06:00:00",
+      "temperature_celsius": 28.28,
+      "humidity_percent": 69.47,
+      "pH": 7.07,
+      "salinity_psu": 36.2
+    },
+    {
+      "timestamp": "2024-01-19 07:00:00",
+      "temperature_celsius": 29.35,
+      "humidity_percent": 65.24,
+      "pH": 7.15,
+      "salinity_psu": 36.94
+    },
+    {
+      "timestamp": "2024-01-19 08:00:00",
+      "temperature_celsius": 31.0,
+      "humidity_percent": 65.06,
+      "pH": 7.23,
+      "salinity_psu": 37.23
+    },
+    {
+      "timestamp": "2024-01-19 09:00:00",
+      "temperature_celsius": 33.35,
+      "humidity_percent": 67.4,
+      "pH": 6.77,
+      "salinity_psu": 36.68
+    },
+    {
+      "timestamp": "2024-01-19 10:00:00",
+      "temperature_celsius": 31.55,
+      "humidity_percent": 60.22,
+      "pH": 6.94,
+      "salinity_psu": 36.23
+    },
+    {
+      "timestamp": "2024-01-19 11:00:00",
+      "temperature_celsius": 32.93,
+      "humidity_percent": 63.47,
+      "pH": 7.03,
+      "salinity_psu": 36.3
+    },
+    {
+      "timestamp": "2024-01-19 12:00:00",
+      "temperature_celsius": 32.79,
+      "humidity_percent": 58.53,
+      "pH": 7.07,
+      "salinity_psu": 37.11
+    },
+    {
+      "timestamp": "2024-01-19 13:00:00",
+      "temperature_celsius": 33.9,
+      "humidity_percent": 67.59,
+      "pH": 7.23,
+      "salinity_psu": 36.68
+    },
+    {
+      "timestamp": "2024-01-19 14:00:00",
+      "temperature_celsius": 33.32,
+      "humidity_percent": 68.11,
+      "pH": 6.8,
+      "salinity_psu": 37.06
+    },
+    {
+      "timestamp": "2024-01-19 15:00:00",
+      "temperature_celsius": 31.67,
+      "humidity_percent": 66.09,
+      "pH": 7.04,
+      "salinity_psu": 37.21
+    },
+    {
+      "timestamp": "2024-01-19 16:00:00",
+      "temperature_celsius": 31.16,
+      "humidity_percent": 66.97,
+      "pH": 7.21,
+      "salinity_psu": 36.98
+    },
+    {
+      "timestamp": "2024-01-19 17:00:00",
+      "temperature_celsius": 29.51,
+      "humidity_percent": 67.97,
+      "pH": 6.95,
+      "salinity_psu": 36.14
+    },
+    {
+      "timestamp": "2024-01-19 18:00:00",
+      "temperature_celsius": 29.06,
+      "humidity_percent": 67.08,
+      "pH": 6.98,
+      "salinity_psu": 37.56
+    },
+    {
+      "timestamp": "2024-01-19 19:00:00",
+      "temperature_celsius": 28.35,
+      "humidity_percent": 71.35,
+      "pH": 7.17,
+      "salinity_psu": 37.4
+    },
+    {
+      "timestamp": "2024-01-19 20:00:00",
+      "temperature_celsius": 25.37,
+      "humidity_percent": 68.86,
+      "pH": 6.84,
+      "salinity_psu": 36.66
+    },
+    {
+      "timestamp": "2024-01-19 21:00:00",
+      "temperature_celsius": 25.0,
+      "humidity_percent": 70.67,
+      "pH": 7.12,
+      "salinity_psu": 36.53
+    },
+    {
+      "timestamp": "2024-01-19 22:00:00",
+      "temperature_celsius": 22.72,
+      "humidity_percent": 81.39,
+      "pH": 7.03,
+      "salinity_psu": 38.1
+    },
+    {
+      "timestamp": "2024-01-19 23:00:00",
+      "temperature_celsius": 22.77,
+      "humidity_percent": 80.36,
+      "pH": 6.97,
+      "salinity_psu": 36.34
+    },
+    {
+      "timestamp": "2024-01-20 00:00:00",
+      "temperature_celsius": 23.41,
+      "humidity_percent": 73.2,
+      "pH": 6.96,
+      "salinity_psu": 36.91
+    },
+    {
+      "timestamp": "2024-01-20 01:00:00",
+      "temperature_celsius": 22.37,
+      "humidity_percent": 80.13,
+      "pH": 6.7,
+      "salinity_psu": 37.02
+    },
+    {
+      "timestamp": "2024-01-20 02:00:00",
+      "temperature_celsius": 23.1,
+      "humidity_percent": 75.96,
+      "pH": 7.04,
+      "salinity_psu": 37.38
+    },
+    {
+      "timestamp": "2024-01-20 03:00:00",
+      "temperature_celsius": 26.02,
+      "humidity_percent": 73.39,
+      "pH": 6.9,
+      "salinity_psu": 37.03
+    },
+    {
+      "timestamp": "2024-01-20 04:00:00",
+      "temperature_celsius": 26.52,
+      "humidity_percent": 76.06,
+      "pH": 6.8,
+      "salinity_psu": 37.7
+    },
+    {
+      "timestamp": "2024-01-20 05:00:00",
+      "temperature_celsius": 25.71,
+      "humidity_percent": 75.66,
+      "pH": 6.89,
+      "salinity_psu": 35.61
+    },
+    {
+      "timestamp": "2024-01-20 06:00:00",
+      "temperature_celsius": 27.64,
+      "humidity_percent": 71.06,
+      "pH": 7.19,
+      "salinity_psu": 36.81
+    },
+    {
+      "timestamp": "2024-01-20 07:00:00",
+      "temperature_celsius": 29.86,
+      "humidity_percent": 70.16,
+      "pH": 7.0,
+      "salinity_psu": 36.97
+    },
+    {
+      "timestamp": "2024-01-20 08:00:00",
+      "temperature_celsius": 32.11,
+      "humidity_percent": 64.91,
+      "pH": 6.82,
+      "salinity_psu": 37.28
+    },
+    {
+      "timestamp": "2024-01-20 09:00:00",
+      "temperature_celsius": 30.74,
+      "humidity_percent": 62.26,
+      "pH": 7.15,
+      "salinity_psu": 36.29
+    },
+    {
+      "timestamp": "2024-01-20 10:00:00",
+      "temperature_celsius": 34.12,
+      "humidity_percent": 58.77,
+      "pH": 7.21,
+      "salinity_psu": 37.47
+    },
+    {
+      "timestamp": "2024-01-20 11:00:00",
+      "temperature_celsius": 32.41,
+      "humidity_percent": 69.88,
+      "pH": 7.32,
+      "salinity_psu": 36.57
+    },
+    {
+      "timestamp": "2024-01-20 12:00:00",
+      "temperature_celsius": 32.51,
+      "humidity_percent": 64.49,
+      "pH": 7.29,
+      "salinity_psu": 37.45
+    },
+    {
+      "timestamp": "2024-01-20 13:00:00",
+      "temperature_celsius": 34.17,
+      "humidity_percent": 62.39,
+      "pH": 7.34,
+      "salinity_psu": 36.92
+    },
+    {
+      "timestamp": "2024-01-20 14:00:00",
+      "temperature_celsius": 32.48,
+      "humidity_percent": 64.16,
+      "pH": 7.25,
+      "salinity_psu": 36.94
+    },
+    {
+      "timestamp": "2024-01-20 15:00:00",
+      "temperature_celsius": 30.67,
+      "humidity_percent": 63.22,
+      "pH": 7.34,
+      "salinity_psu": 37.42
+    },
+    {
+      "timestamp": "2024-01-20 16:00:00",
+      "temperature_celsius": 32.85,
+      "humidity_percent": 67.05,
+      "pH": 7.1,
+      "salinity_psu": 36.16
+    },
+    {
+      "timestamp": "2024-01-20 17:00:00",
+      "temperature_celsius": 31.54,
+      "humidity_percent": 67.83,
+      "pH": 7.48,
+      "salinity_psu": 36.8
+    },
+    {
+      "timestamp": "2024-01-20 18:00:00",
+      "temperature_celsius": 27.5,
+      "humidity_percent": 72.04,
+      "pH": 7.11,
+      "salinity_psu": 36.56
+    },
+    {
+      "timestamp": "2024-01-20 19:00:00",
+      "temperature_celsius": 26.97,
+      "humidity_percent": 76.44,
+      "pH": 7.37,
+      "salinity_psu": 36.41
+    },
+    {
+      "timestamp": "2024-01-20 20:00:00",
+      "temperature_celsius": 28.09,
+      "humidity_percent": 68.5,
+      "pH": 6.99,
+      "salinity_psu": 35.69
+    },
+    {
+      "timestamp": "2024-01-20 21:00:00",
+      "temperature_celsius": 24.18,
+      "humidity_percent": 73.34,
+      "pH": 7.18,
+      "salinity_psu": 36.63
+    },
+    {
+      "timestamp": "2024-01-20 22:00:00",
+      "temperature_celsius": 25.4,
+      "humidity_percent": 72.02,
+      "pH": 7.12,
+      "salinity_psu": 37.61
+    },
+    {
+      "timestamp": "2024-01-20 23:00:00",
+      "temperature_celsius": 22.34,
+      "humidity_percent": 79.2,
+      "pH": 7.24,
+      "salinity_psu": 37.25
+    },
+    {
+      "timestamp": "2024-01-21 00:00:00",
+      "temperature_celsius": 23.05,
+      "humidity_percent": 83.69,
+      "pH": 7.26,
+      "salinity_psu": 35.19
+    },
+    {
+      "timestamp": "2024-01-21 01:00:00",
+      "temperature_celsius": 22.9,
+      "humidity_percent": 77.92,
+      "pH": 6.9,
+      "salinity_psu": 37.09
+    },
+    {
+      "timestamp": "2024-01-21 02:00:00",
+      "temperature_celsius": 24.82,
+      "humidity_percent": 74.71,
+      "pH": 7.18,
+      "salinity_psu": 37.26
+    },
+    {
+      "timestamp": "2024-01-21 03:00:00",
+      "temperature_celsius": 26.06,
+      "humidity_percent": 74.66,
+      "pH": 7.28,
+      "salinity_psu": 36.62
+    },
+    {
+      "timestamp": "2024-01-21 04:00:00",
+      "temperature_celsius": 25.21,
+      "humidity_percent": 75.34,
+      "pH": 7.47,
+      "salinity_psu": 36.96
+    },
+    {
+      "timestamp": "2024-01-21 05:00:00",
+      "temperature_celsius": 26.43,
+      "humidity_percent": 75.63,
+      "pH": 7.5,
+      "salinity_psu": 36.96
+    },
+    {
+      "timestamp": "2024-01-21 06:00:00",
+      "temperature_celsius": 29.82,
+      "humidity_percent": 71.51,
+      "pH": 7.01,
+      "salinity_psu": 37.24
+    },
+    {
+      "timestamp": "2024-01-21 07:00:00",
+      "temperature_celsius": 30.24,
+      "humidity_percent": 70.7,
+      "pH": 7.35,
+      "salinity_psu": 36.77
+    },
+    {
+      "timestamp": "2024-01-21 08:00:00",
+      "temperature_celsius": 30.3,
+      "humidity_percent": 70.02,
+      "pH": 7.25,
+      "salinity_psu": 35.5
+    },
+    {
+      "timestamp": "2024-01-21 09:00:00",
+      "temperature_celsius": 33.43,
+      "humidity_percent": 61.53,
+      "pH": 7.22,
+      "salinity_psu": 36.43
+    },
+    {
+      "timestamp": "2024-01-21 10:00:00",
+      "temperature_celsius": 33.96,
+      "humidity_percent": 62.78,
+      "pH": 7.28,
+      "salinity_psu": 36.65
+    },
+    {
+      "timestamp": "2024-01-21 11:00:00",
+      "temperature_celsius": 32.84,
+      "humidity_percent": 65.98,
+      "pH": 7.35,
+      "salinity_psu": 35.48
+    },
+    {
+      "timestamp": "2024-01-21 12:00:00",
+      "temperature_celsius": 34.2,
+      "humidity_percent": 63.5,
+      "pH": 7.35,
+      "salinity_psu": 36.46
+    },
+    {
+      "timestamp": "2024-01-21 13:00:00",
+      "temperature_celsius": 32.84,
+      "humidity_percent": 63.51,
+      "pH": 7.2,
+      "salinity_psu": 36.66
+    },
+    {
+      "timestamp": "2024-01-21 14:00:00",
+      "temperature_celsius": 33.15,
+      "humidity_percent": 64.16,
+      "pH": 7.36,
+      "salinity_psu": 37.09
+    },
+    {
+      "timestamp": "2024-01-21 15:00:00",
+      "temperature_celsius": 31.45,
+      "humidity_percent": 63.6,
+      "pH": 7.29,
+      "salinity_psu": 36.65
+    },
+    {
+      "timestamp": "2024-01-21 16:00:00",
+      "temperature_celsius": 31.28,
+      "humidity_percent": 59.45,
+      "pH": 7.32,
+      "salinity_psu": 36.82
+    },
+    {
+      "timestamp": "2024-01-21 17:00:00",
+      "temperature_celsius": 29.98,
+      "humidity_percent": 64.79,
+      "pH": 7.34,
+      "salinity_psu": 36.7
+    },
+    {
+      "timestamp": "2024-01-21 18:00:00",
+      "temperature_celsius": 29.62,
+      "humidity_percent": 68.23,
+      "pH": 7.29,
+      "salinity_psu": 36.29
+    },
+    {
+      "timestamp": "2024-01-21 19:00:00",
+      "temperature_celsius": 26.2,
+      "humidity_percent": 75.84,
+      "pH": 7.37,
+      "salinity_psu": 35.68
+    },
+    {
+      "timestamp": "2024-01-21 20:00:00",
+      "temperature_celsius": 26.61,
+      "humidity_percent": 77.67,
+      "pH": 7.52,
+      "salinity_psu": 36.1
+    },
+    {
+      "timestamp": "2024-01-21 21:00:00",
+      "temperature_celsius": 25.56,
+      "humidity_percent": 78.45,
+      "pH": 7.26,
+      "salinity_psu": 35.18
+    },
+    {
+      "timestamp": "2024-01-21 22:00:00",
+      "temperature_celsius": 23.13,
+      "humidity_percent": 74.17,
+      "pH": 7.46,
+      "salinity_psu": 36.98
+    },
+    {
+      "timestamp": "2024-01-21 23:00:00",
+      "temperature_celsius": 25.12,
+      "humidity_percent": 78.55,
+      "pH": 7.41,
+      "salinity_psu": 36.99
+    },
+    {
+      "timestamp": "2024-01-22 00:00:00",
+      "temperature_celsius": 22.28,
+      "humidity_percent": 81.37,
+      "pH": 7.46,
+      "salinity_psu": 35.96
+    },
+    {
+      "timestamp": "2024-01-22 01:00:00",
+      "temperature_celsius": 24.51,
+      "humidity_percent": 76.48,
+      "pH": 7.51,
+      "salinity_psu": 36.16
+    },
+    {
+      "timestamp": "2024-01-22 02:00:00",
+      "temperature_celsius": 24.32,
+      "humidity_percent": 70.81,
+      "pH": 7.63,
+      "salinity_psu": 36.06
+    },
+    {
+      "timestamp": "2024-01-22 03:00:00",
+      "temperature_celsius": 25.13,
+      "humidity_percent": 72.57,
+      "pH": 7.53,
+      "salinity_psu": 36.21
+    },
+    {
+      "timestamp": "2024-01-22 04:00:00",
+      "temperature_celsius": 27.97,
+      "humidity_percent": 69.79,
+      "pH": 7.35,
+      "salinity_psu": 36.16
+    },
+    {
+      "timestamp": "2024-01-22 05:00:00",
+      "temperature_celsius": 27.15,
+      "humidity_percent": 69.46,
+      "pH": 7.48,
+      "salinity_psu": 36.42
+    },
+    {
+      "timestamp": "2024-01-22 06:00:00",
+      "temperature_celsius": 28.49,
+      "humidity_percent": 67.99,
+      "pH": 7.45,
+      "salinity_psu": 35.44
+    },
+    {
+      "timestamp": "2024-01-22 07:00:00",
+      "temperature_celsius": 29.52,
+      "humidity_percent": 71.56,
+      "pH": 7.6,
+      "salinity_psu": 36.34
+    },
+    {
+      "timestamp": "2024-01-22 08:00:00",
+      "temperature_celsius": 29.62,
+      "humidity_percent": 70.14,
+      "pH": 7.13,
+      "salinity_psu": 35.19
+    },
+    {
+      "timestamp": "2024-01-22 09:00:00",
+      "temperature_celsius": 33.08,
+      "humidity_percent": 64.37,
+      "pH": 7.47,
+      "salinity_psu": 35.38
+    },
+    {
+      "timestamp": "2024-01-22 10:00:00",
+      "temperature_celsius": 31.77,
+      "humidity_percent": 65.19,
+      "pH": 7.39,
+      "salinity_psu": 35.5
+    },
+    {
+      "timestamp": "2024-01-22 11:00:00",
+      "temperature_celsius": 33.41,
+      "humidity_percent": 56.76,
+      "pH": 7.54,
+      "salinity_psu": 34.74
+    },
+    {
+      "timestamp": "2024-01-22 12:00:00",
+      "temperature_celsius": 33.72,
+      "humidity_percent": 65.69,
+      "pH": 7.54,
+      "salinity_psu": 36.39
+    },
+    {
+      "timestamp": "2024-01-22 13:00:00",
+      "temperature_celsius": 34.72,
+      "humidity_percent": 62.15,
+      "pH": 7.41,
+      "salinity_psu": 36.3
+    },
+    {
+      "timestamp": "2024-01-22 14:00:00",
+      "temperature_celsius": 31.83,
+      "humidity_percent": 66.54,
+      "pH": 7.36,
+      "salinity_psu": 35.2
+    },
+    {
+      "timestamp": "2024-01-22 15:00:00",
+      "temperature_celsius": 31.83,
+      "humidity_percent": 64.73,
+      "pH": 7.46,
+      "salinity_psu": 36.2
+    },
+    {
+      "timestamp": "2024-01-22 16:00:00",
+      "temperature_celsius": 29.71,
+      "humidity_percent": 69.02,
+      "pH": 7.57,
+      "salinity_psu": 36.67
+    },
+    {
+      "timestamp": "2024-01-22 17:00:00",
+      "temperature_celsius": 30.35,
+      "humidity_percent": 70.35,
+      "pH": 7.28,
+      "salinity_psu": 35.36
+    },
+    {
+      "timestamp": "2024-01-22 18:00:00",
+      "temperature_celsius": 28.1,
+      "humidity_percent": 72.54,
+      "pH": 7.37,
+      "salinity_psu": 36.09
+    },
+    {
+      "timestamp": "2024-01-22 19:00:00",
+      "temperature_celsius": 25.28,
+      "humidity_percent": 74.85,
+      "pH": 7.38,
+      "salinity_psu": 35.27
+    },
+    {
+      "timestamp": "2024-01-22 20:00:00",
+      "temperature_celsius": 25.67,
+      "humidity_percent": 71.77,
+      "pH": 7.59,
+      "salinity_psu": 36.2
+    },
+    {
+      "timestamp": "2024-01-22 21:00:00",
+      "temperature_celsius": 25.0,
+      "humidity_percent": 79.56,
+      "pH": 7.31,
+      "salinity_psu": 36.1
+    },
+    {
+      "timestamp": "2024-01-22 22:00:00",
+      "temperature_celsius": 24.22,
+      "humidity_percent": 73.83,
+      "pH": 7.42,
+      "salinity_psu": 35.58
+    },
+    {
+      "timestamp": "2024-01-22 23:00:00",
+      "temperature_celsius": 23.15,
+      "humidity_percent": 76.24,
+      "pH": 7.61,
+      "salinity_psu": 35.68
+    },
+    {
+      "timestamp": "2024-01-23 00:00:00",
+      "temperature_celsius": 24.26,
+      "humidity_percent": 78.13,
+      "pH": 7.79,
+      "salinity_psu": 35.17
+    },
+    {
+      "timestamp": "2024-01-23 01:00:00",
+      "temperature_celsius": 22.34,
+      "humidity_percent": 73.97,
+      "pH": 7.55,
+      "salinity_psu": 36.27
+    },
+    {
+      "timestamp": "2024-01-23 02:00:00",
+      "temperature_celsius": 25.31,
+      "humidity_percent": 77.08,
+      "pH": 7.29,
+      "salinity_psu": 35.37
+    },
+    {
+      "timestamp": "2024-01-23 03:00:00",
+      "temperature_celsius": 24.01,
+      "humidity_percent": 80.49,
+      "pH": 7.75,
+      "salinity_psu": 35.66
+    },
+    {
+      "timestamp": "2024-01-23 04:00:00",
+      "temperature_celsius": 25.55,
+      "humidity_percent": 73.76,
+      "pH": 7.68,
+      "salinity_psu": 35.34
+    },
+    {
+      "timestamp": "2024-01-23 05:00:00",
+      "temperature_celsius": 29.46,
+      "humidity_percent": 68.49,
+      "pH": 7.2,
+      "salinity_psu": 34.66
+    },
+    {
+      "timestamp": "2024-01-23 06:00:00",
+      "temperature_celsius": 28.8,
+      "humidity_percent": 70.77,
+      "pH": 7.5,
+      "salinity_psu": 35.13
+    },
+    {
+      "timestamp": "2024-01-23 07:00:00",
+      "temperature_celsius": 29.36,
+      "humidity_percent": 67.88,
+      "pH": 7.72,
+      "salinity_psu": 34.07
+    },
+    {
+      "timestamp": "2024-01-23 08:00:00",
+      "temperature_celsius": 31.36,
+      "humidity_percent": 64.32,
+      "pH": 7.5,
+      "salinity_psu": 35.3
+    },
+    {
+      "timestamp": "2024-01-23 09:00:00",
+      "temperature_celsius": 32.11,
+      "humidity_percent": 63.4,
+      "pH": 7.67,
+      "salinity_psu": 35.3
+    },
+    {
+      "timestamp": "2024-01-23 10:00:00",
+      "temperature_celsius": 32.38,
+      "humidity_percent": 65.02,
+      "pH": 7.68,
+      "salinity_psu": 34.56
+    },
+    {
+      "timestamp": "2024-01-23 11:00:00",
+      "temperature_celsius": 33.48,
+      "humidity_percent": 56.31,
+      "pH": 7.72,
+      "salinity_psu": 35.84
+    },
+    {
+      "timestamp": "2024-01-23 12:00:00",
+      "temperature_celsius": 34.41,
+      "humidity_percent": 60.26,
+      "pH": 7.27,
+      "salinity_psu": 34.7
+    },
+    {
+      "timestamp": "2024-01-23 13:00:00",
+      "temperature_celsius": 32.91,
+      "humidity_percent": 65.79,
+      "pH": 7.72,
+      "salinity_psu": 34.59
+    },
+    {
+      "timestamp": "2024-01-23 14:00:00",
+      "temperature_celsius": 34.39,
+      "humidity_percent": 61.68,
+      "pH": 7.39,
+      "salinity_psu": 34.57
+    },
+    {
+      "timestamp": "2024-01-23 15:00:00",
+      "temperature_celsius": 32.27,
+      "humidity_percent": 65.12,
+      "pH": 7.47,
+      "salinity_psu": 34.51
+    },
+    {
+      "timestamp": "2024-01-23 16:00:00",
+      "temperature_celsius": 31.83,
+      "humidity_percent": 63.54,
+      "pH": 7.45,
+      "salinity_psu": 34.86
+    },
+    {
+      "timestamp": "2024-01-23 17:00:00",
+      "temperature_celsius": 31.33,
+      "humidity_percent": 59.82,
+      "pH": 7.51,
+      "salinity_psu": 35.04
+    },
+    {
+      "timestamp": "2024-01-23 18:00:00",
+      "temperature_celsius": 28.84,
+      "humidity_percent": 72.64,
+      "pH": 7.3,
+      "salinity_psu": 34.11
+    },
+    {
+      "timestamp": "2024-01-23 19:00:00",
+      "temperature_celsius": 28.89,
+      "humidity_percent": 75.08,
+      "pH": 7.44,
+      "salinity_psu": 35.35
+    },
+    {
+      "timestamp": "2024-01-23 20:00:00",
+      "temperature_celsius": 25.93,
+      "humidity_percent": 71.36,
+      "pH": 7.64,
+      "salinity_psu": 35.08
+    },
+    {
+      "timestamp": "2024-01-23 21:00:00",
+      "temperature_celsius": 26.52,
+      "humidity_percent": 69.29,
+      "pH": 7.56,
+      "salinity_psu": 34.51
+    },
+    {
+      "timestamp": "2024-01-23 22:00:00",
+      "temperature_celsius": 25.86,
+      "humidity_percent": 69.85,
+      "pH": 7.58,
+      "salinity_psu": 34.44
+    },
+    {
+      "timestamp": "2024-01-23 23:00:00",
+      "temperature_celsius": 24.79,
+      "humidity_percent": 73.45,
+      "pH": 7.77,
+      "salinity_psu": 34.0
+    },
+    {
+      "timestamp": "2024-01-24 00:00:00",
+      "temperature_celsius": 24.44,
+      "humidity_percent": 73.41,
+      "pH": 7.39,
+      "salinity_psu": 34.42
+    },
+    {
+      "timestamp": "2024-01-24 01:00:00",
+      "temperature_celsius": 22.77,
+      "humidity_percent": 74.65,
+      "pH": 7.5,
+      "salinity_psu": 34.55
+    },
+    {
+      "timestamp": "2024-01-24 02:00:00",
+      "temperature_celsius": 25.13,
+      "humidity_percent": 78.35,
+      "pH": 7.64,
+      "salinity_psu": 34.58
+    },
+    {
+      "timestamp": "2024-01-24 03:00:00",
+      "temperature_celsius": 24.57,
+      "humidity_percent": 75.18,
+      "pH": 7.54,
+      "salinity_psu": 34.67
+    },
+    {
+      "timestamp": "2024-01-24 04:00:00",
+      "temperature_celsius": 26.89,
+      "humidity_percent": 73.39,
+      "pH": 7.62,
+      "salinity_psu": 34.13
+    },
+    {
+      "timestamp": "2024-01-24 05:00:00",
+      "temperature_celsius": 27.79,
+      "humidity_percent": 70.86,
+      "pH": 7.52,
+      "salinity_psu": 34.76
+    },
+    {
+      "timestamp": "2024-01-24 06:00:00",
+      "temperature_celsius": 28.49,
+      "humidity_percent": 65.52,
+      "pH": 7.32,
+      "salinity_psu": 34.46
+    },
+    {
+      "timestamp": "2024-01-24 07:00:00",
+      "temperature_celsius": 31.53,
+      "humidity_percent": 67.19,
+      "pH": 7.39,
+      "salinity_psu": 33.61
+    },
+    {
+      "timestamp": "2024-01-24 08:00:00",
+      "temperature_celsius": 32.02,
+      "humidity_percent": 66.49,
+      "pH": 7.4,
+      "salinity_psu": 34.89
+    },
+    {
+      "timestamp": "2024-01-24 09:00:00",
+      "temperature_celsius": 33.34,
+      "humidity_percent": 64.54,
+      "pH": 7.57,
+      "salinity_psu": 34.54
+    },
+    {
+      "timestamp": "2024-01-24 10:00:00",
+      "temperature_celsius": 33.85,
+      "humidity_percent": 60.53,
+      "pH": 7.62,
+      "salinity_psu": 33.97
+    },
+    {
+      "timestamp": "2024-01-24 11:00:00",
+      "temperature_celsius": 35.49,
+      "humidity_percent": 60.79,
+      "pH": 7.56,
+      "salinity_psu": 35.1
+    },
+    {
+      "timestamp": "2024-01-24 12:00:00",
+      "temperature_celsius": 35.35,
+      "humidity_percent": 59.11,
+      "pH": 7.41,
+      "salinity_psu": 35.16
+    },
+    {
+      "timestamp": "2024-01-24 13:00:00",
+      "temperature_celsius": 35.14,
+      "humidity_percent": 58.43,
+      "pH": 7.48,
+      "salinity_psu": 34.17
+    },
+    {
+      "timestamp": "2024-01-24 14:00:00",
+      "temperature_celsius": 34.52,
+      "humidity_percent": 62.92,
+      "pH": 7.35,
+      "salinity_psu": 34.04
+    },
+    {
+      "timestamp": "2024-01-24 15:00:00",
+      "temperature_celsius": 33.19,
+      "humidity_percent": 64.39,
+      "pH": 7.6,
+      "salinity_psu": 34.6
+    },
+    {
+      "timestamp": "2024-01-24 16:00:00",
+      "temperature_celsius": 31.5,
+      "humidity_percent": 64.79,
+      "pH": 7.45,
+      "salinity_psu": 33.72
+    },
+    {
+      "timestamp": "2024-01-24 17:00:00",
+      "temperature_celsius": 30.99,
+      "humidity_percent": 69.33,
+      "pH": 7.52,
+      "salinity_psu": 33.83
+    },
+    {
+      "timestamp": "2024-01-24 18:00:00",
+      "temperature_celsius": 28.02,
+      "humidity_percent": 74.55,
+      "pH": 7.26,
+      "salinity_psu": 33.72
+    },
+    {
+      "timestamp": "2024-01-24 19:00:00",
+      "temperature_celsius": 28.14,
+      "humidity_percent": 67.89,
+      "pH": 7.68,
+      "salinity_psu": 34.64
+    },
+    {
+      "timestamp": "2024-01-24 20:00:00",
+      "temperature_celsius": 28.1,
+      "humidity_percent": 70.01,
+      "pH": 7.2,
+      "salinity_psu": 33.69
+    },
+    {
+      "timestamp": "2024-01-24 21:00:00",
+      "temperature_celsius": 25.04,
+      "humidity_percent": 71.94,
+      "pH": 7.26,
+      "salinity_psu": 33.07
+    },
+    {
+      "timestamp": "2024-01-24 22:00:00",
+      "temperature_celsius": 24.61,
+      "humidity_percent": 69.49,
+      "pH": 7.3,
+      "salinity_psu": 33.94
+    },
+    {
+      "timestamp": "2024-01-24 23:00:00",
+      "temperature_celsius": 25.75,
+      "humidity_percent": 75.78,
+      "pH": 7.69,
+      "salinity_psu": 33.55
+    },
+    {
+      "timestamp": "2024-01-25 00:00:00",
+      "temperature_celsius": 21.32,
+      "humidity_percent": 81.16,
+      "pH": 7.35,
+      "salinity_psu": 33.45
+    },
+    {
+      "timestamp": "2024-01-25 01:00:00",
+      "temperature_celsius": 24.34,
+      "humidity_percent": 83.93,
+      "pH": 7.23,
+      "salinity_psu": 34.04
+    },
+    {
+      "timestamp": "2024-01-25 02:00:00",
+      "temperature_celsius": 21.76,
+      "humidity_percent": 81.22,
+      "pH": 7.38,
+      "salinity_psu": 33.19
+    },
+    {
+      "timestamp": "2024-01-25 03:00:00",
+      "temperature_celsius": 26.2,
+      "humidity_percent": 71.31,
+      "pH": 7.22,
+      "salinity_psu": 33.64
+    },
+    {
+      "timestamp": "2024-01-25 04:00:00",
+      "temperature_celsius": 26.98,
+      "humidity_percent": 66.26,
+      "pH": 7.42,
+      "salinity_psu": 33.69
+    },
+    {
+      "timestamp": "2024-01-25 05:00:00",
+      "temperature_celsius": 27.6,
+      "humidity_percent": 69.2,
+      "pH": 7.4,
+      "salinity_psu": 33.63
+    },
+    {
+      "timestamp": "2024-01-25 06:00:00",
+      "temperature_celsius": 29.52,
+      "humidity_percent": 66.09,
+      "pH": 7.35,
+      "salinity_psu": 34.1
+    },
+    {
+      "timestamp": "2024-01-25 07:00:00",
+      "temperature_celsius": 30.27,
+      "humidity_percent": 66.39,
+      "pH": 7.52,
+      "salinity_psu": 33.7
+    },
+    {
+      "timestamp": "2024-01-25 08:00:00",
+      "temperature_celsius": 33.12,
+      "humidity_percent": 60.32,
+      "pH": 7.05,
+      "salinity_psu": 33.24
+    },
+    {
+      "timestamp": "2024-01-25 09:00:00",
+      "temperature_celsius": 31.69,
+      "humidity_percent": 73.35,
+      "pH": 7.04,
+      "salinity_psu": 33.8
+    },
+    {
+      "timestamp": "2024-01-25 10:00:00",
+      "temperature_celsius": 35.43,
+      "humidity_percent": 56.99,
+      "pH": 7.29,
+      "salinity_psu": 33.45
+    },
+    {
+      "timestamp": "2024-01-25 11:00:00",
+      "temperature_celsius": 33.36,
+      "humidity_percent": 62.54,
+      "pH": 7.4,
+      "salinity_psu": 32.78
+    },
+    {
+      "timestamp": "2024-01-25 12:00:00",
+      "temperature_celsius": 34.57,
+      "humidity_percent": 58.49,
+      "pH": 7.3,
+      "salinity_psu": 33.61
+    },
+    {
+      "timestamp": "2024-01-25 13:00:00",
+      "temperature_celsius": 35.26,
+      "humidity_percent": 54.57,
+      "pH": 7.25,
+      "salinity_psu": 33.55
+    },
+    {
+      "timestamp": "2024-01-25 14:00:00",
+      "temperature_celsius": 34.3,
+      "humidity_percent": 61.91,
+      "pH": 7.19,
+      "salinity_psu": 34.49
+    },
+    {
+      "timestamp": "2024-01-25 15:00:00",
+      "temperature_celsius": 32.91,
+      "humidity_percent": 56.93,
+      "pH": 7.25,
+      "salinity_psu": 32.52
+    },
+    {
+      "timestamp": "2024-01-25 16:00:00",
+      "temperature_celsius": 31.46,
+      "humidity_percent": 67.41,
+      "pH": 7.31,
+      "salinity_psu": 33.61
+    },
+    {
+      "timestamp": "2024-01-25 17:00:00",
+      "temperature_celsius": 32.05,
+      "humidity_percent": 63.99,
+      "pH": 7.02,
+      "salinity_psu": 33.07
+    },
+    {
+      "timestamp": "2024-01-25 18:00:00",
+      "temperature_celsius": 28.17,
+      "humidity_percent": 72.73,
+      "pH": 7.36,
+      "salinity_psu": 33.98
+    },
+    {
+      "timestamp": "2024-01-25 19:00:00",
+      "temperature_celsius": 29.34,
+      "humidity_percent": 62.06,
+      "pH": 7.19,
+      "salinity_psu": 33.7
+    },
+    {
+      "timestamp": "2024-01-25 20:00:00",
+      "temperature_celsius": 26.76,
+      "humidity_percent": 71.39,
+      "pH": 7.24,
+      "salinity_psu": 33.59
+    },
+    {
+      "timestamp": "2024-01-25 21:00:00",
+      "temperature_celsius": 24.52,
+      "humidity_percent": 78.73,
+      "pH": 7.27,
+      "salinity_psu": 34.18
+    },
+    {
+      "timestamp": "2024-01-25 22:00:00",
+      "temperature_celsius": 24.92,
+      "humidity_percent": 73.46,
+      "pH": 7.26,
+      "salinity_psu": 32.35
+    },
+    {
+      "timestamp": "2024-01-25 23:00:00",
+      "temperature_celsius": 24.89,
+      "humidity_percent": 74.87,
+      "pH": 7.18,
+      "salinity_psu": 33.95
+    },
+    {
+      "timestamp": "2024-01-26 00:00:00",
+      "temperature_celsius": 22.57,
+      "humidity_percent": 78.01,
+      "pH": 7.27,
+      "salinity_psu": 33.33
+    },
+    {
+      "timestamp": "2024-01-26 01:00:00",
+      "temperature_celsius": 24.85,
+      "humidity_percent": 74.65,
+      "pH": 7.02,
+      "salinity_psu": 33.16
+    },
+    {
+      "timestamp": "2024-01-26 02:00:00",
+      "temperature_celsius": 26.7,
+      "humidity_percent": 73.76,
+      "pH": 7.15,
+      "salinity_psu": 34.12
+    },
+    {
+      "timestamp": "2024-01-26 03:00:00",
+      "temperature_celsius": 25.73,
+      "humidity_percent": 71.32,
+      "pH": 7.01,
+      "salinity_psu": 33.1
+    },
+    {
+      "timestamp": "2024-01-26 04:00:00",
+      "temperature_celsius": 28.46,
+      "humidity_percent": 67.33,
+      "pH": 7.01,
+      "salinity_psu": 32.57
+    },
+    {
+      "timestamp": "2024-01-26 05:00:00",
+      "temperature_celsius": 29.83,
+      "humidity_percent": 70.0,
+      "pH": 7.17,
+      "salinity_psu": 32.94
+    },
+    {
+      "timestamp": "2024-01-26 06:00:00",
+      "temperature_celsius": 28.33,
+      "humidity_percent": 70.25,
+      "pH": 7.12,
+      "salinity_psu": 33.06
+    },
+    {
+      "timestamp": "2024-01-26 07:00:00",
+      "temperature_celsius": 32.26,
+      "humidity_percent": 64.61,
+      "pH": 7.14,
+      "salinity_psu": 33.41
+    },
+    {
+      "timestamp": "2024-01-26 08:00:00",
+      "temperature_celsius": 32.18,
+      "humidity_percent": 65.3,
+      "pH": 7.11,
+      "salinity_psu": 33.34
+    },
+    {
+      "timestamp": "2024-01-26 09:00:00",
+      "temperature_celsius": 33.4,
+      "humidity_percent": 57.31,
+      "pH": 7.18,
+      "salinity_psu": 33.02
+    },
+    {
+      "timestamp": "2024-01-26 10:00:00",
+      "temperature_celsius": 32.84,
+      "humidity_percent": 64.84,
+      "pH": 6.92,
+      "salinity_psu": 33.27
+    },
+    {
+      "timestamp": "2024-01-26 11:00:00",
+      "temperature_celsius": 35.63,
+      "humidity_percent": 60.68,
+      "pH": 7.34,
+      "salinity_psu": 32.8
+    },
+    {
+      "timestamp": "2024-01-26 12:00:00",
+      "temperature_celsius": 35.32,
+      "humidity_percent": 58.44,
+      "pH": 7.1,
+      "salinity_psu": 32.85
+    },
+    {
+      "timestamp": "2024-01-26 13:00:00",
+      "temperature_celsius": 33.87,
+      "humidity_percent": 66.49,
+      "pH": 7.01,
+      "salinity_psu": 33.4
+    },
+    {
+      "timestamp": "2024-01-26 14:00:00",
+      "temperature_celsius": 33.91,
+      "humidity_percent": 67.85,
+      "pH": 6.85,
+      "salinity_psu": 33.11
+    },
+    {
+      "timestamp": "2024-01-26 15:00:00",
+      "temperature_celsius": 32.18,
+      "humidity_percent": 65.07,
+      "pH": 7.04,
+      "salinity_psu": 34.38
+    },
+    {
+      "timestamp": "2024-01-26 16:00:00",
+      "temperature_celsius": 31.02,
+      "humidity_percent": 64.3,
+      "pH": 7.18,
+      "salinity_psu": 34.2
+    },
+    {
+      "timestamp": "2024-01-26 17:00:00",
+      "temperature_celsius": 30.52,
+      "humidity_percent": 69.03,
+      "pH": 7.12,
+      "salinity_psu": 33.62
+    },
+    {
+      "timestamp": "2024-01-26 18:00:00",
+      "temperature_celsius": 29.42,
+      "humidity_percent": 65.02,
+      "pH": 7.21,
+      "salinity_psu": 32.92
+    },
+    {
+      "timestamp": "2024-01-26 19:00:00",
+      "temperature_celsius": 29.42,
+      "humidity_percent": 66.5,
+      "pH": 7.06,
+      "salinity_psu": 31.99
+    },
+    {
+      "timestamp": "2024-01-26 20:00:00",
+      "temperature_celsius": 27.85,
+      "humidity_percent": 74.86,
+      "pH": 7.01,
+      "salinity_psu": 32.76
+    },
+    {
+      "timestamp": "2024-01-26 21:00:00",
+      "temperature_celsius": 27.27,
+      "humidity_percent": 67.67,
+      "pH": 7.17,
+      "salinity_psu": 32.73
+    },
+    {
+      "timestamp": "2024-01-26 22:00:00",
+      "temperature_celsius": 25.1,
+      "humidity_percent": 71.69,
+      "pH": 7.23,
+      "salinity_psu": 33.15
+    },
+    {
+      "timestamp": "2024-01-26 23:00:00",
+      "temperature_celsius": 23.04,
+      "humidity_percent": 80.7,
+      "pH": 6.93,
+      "salinity_psu": 32.74
+    },
+    {
+      "timestamp": "2024-01-27 00:00:00",
+      "temperature_celsius": 24.65,
+      "humidity_percent": 74.88,
+      "pH": 7.07,
+      "salinity_psu": 32.85
+    },
+    {
+      "timestamp": "2024-01-27 01:00:00",
+      "temperature_celsius": 22.28,
+      "humidity_percent": 78.9,
+      "pH": 6.97,
+      "salinity_psu": 33.52
+    },
+    {
+      "timestamp": "2024-01-27 02:00:00",
+      "temperature_celsius": 25.15,
+      "humidity_percent": 79.73,
+      "pH": 6.99,
+      "salinity_psu": 32.82
+    },
+    {
+      "timestamp": "2024-01-27 03:00:00",
+      "temperature_celsius": 25.72,
+      "humidity_percent": 76.33,
+      "pH": 6.79,
+      "salinity_psu": 33.56
+    },
+    {
+      "timestamp": "2024-01-27 04:00:00",
+      "temperature_celsius": 26.46,
+      "humidity_percent": 74.84,
+      "pH": 7.12,
+      "salinity_psu": 32.41
+    },
+    {
+      "timestamp": "2024-01-27 05:00:00",
+      "temperature_celsius": 29.14,
+      "humidity_percent": 68.24,
+      "pH": 7.11,
+      "salinity_psu": 33.29
+    },
+    {
+      "timestamp": "2024-01-27 06:00:00",
+      "temperature_celsius": 30.83,
+      "humidity_percent": 67.28,
+      "pH": 6.9,
+      "salinity_psu": 32.28
+    },
+    {
+      "timestamp": "2024-01-27 07:00:00",
+      "temperature_celsius": 31.13,
+      "humidity_percent": 63.18,
+      "pH": 7.08,
+      "salinity_psu": 32.81
+    },
+    {
+      "timestamp": "2024-01-27 08:00:00",
+      "temperature_celsius": 33.9,
+      "humidity_percent": 61.93,
+      "pH": 6.65,
+      "salinity_psu": 32.65
+    },
+    {
+      "timestamp": "2024-01-27 09:00:00",
+      "temperature_celsius": 32.81,
+      "humidity_percent": 56.02,
+      "pH": 6.96,
+      "salinity_psu": 33.56
+    },
+    {
+      "timestamp": "2024-01-27 10:00:00",
+      "temperature_celsius": 31.89,
+      "humidity_percent": 66.52,
+      "pH": 7.12,
+      "salinity_psu": 33.4
+    },
+    {
+      "timestamp": "2024-01-27 11:00:00",
+      "temperature_celsius": 35.26,
+      "humidity_percent": 58.82,
+      "pH": 7.06,
+      "salinity_psu": 33.78
+    },
+    {
+      "timestamp": "2024-01-27 12:00:00",
+      "temperature_celsius": 33.68,
+      "humidity_percent": 63.24,
+      "pH": 6.74,
+      "salinity_psu": 32.85
+    },
+    {
+      "timestamp": "2024-01-27 13:00:00",
+      "temperature_celsius": 35.05,
+      "humidity_percent": 53.59,
+      "pH": 6.87,
+      "salinity_psu": 33.19
+    },
+    {
+      "timestamp": "2024-01-27 14:00:00",
+      "temperature_celsius": 33.61,
+      "humidity_percent": 60.02,
+      "pH": 6.93,
+      "salinity_psu": 32.87
+    },
+    {
+      "timestamp": "2024-01-27 15:00:00",
+      "temperature_celsius": 32.83,
+      "humidity_percent": 57.37,
+      "pH": 6.97,
+      "salinity_psu": 33.31
+    },
+    {
+      "timestamp": "2024-01-27 16:00:00",
+      "temperature_celsius": 32.07,
+      "humidity_percent": 60.22,
+      "pH": 6.87,
+      "salinity_psu": 33.67
+    },
+    {
+      "timestamp": "2024-01-27 17:00:00",
+      "temperature_celsius": 31.22,
+      "humidity_percent": 64.03,
+      "pH": 6.92,
+      "salinity_psu": 32.96
+    },
+    {
+      "timestamp": "2024-01-27 18:00:00",
+      "temperature_celsius": 28.37,
+      "humidity_percent": 71.43,
+      "pH": 7.11,
+      "salinity_psu": 33.99
+    },
+    {
+      "timestamp": "2024-01-27 19:00:00",
+      "temperature_celsius": 28.08,
+      "humidity_percent": 73.7,
+      "pH": 7.2,
+      "salinity_psu": 33.25
+    },
+    {
+      "timestamp": "2024-01-27 20:00:00",
+      "temperature_celsius": 27.57,
+      "humidity_percent": 68.03,
+      "pH": 7.1,
+      "salinity_psu": 33.43
+    },
+    {
+      "timestamp": "2024-01-27 21:00:00",
+      "temperature_celsius": 25.75,
+      "humidity_percent": 71.55,
+      "pH": 7.22,
+      "salinity_psu": 33.93
+    },
+    {
+      "timestamp": "2024-01-27 22:00:00",
+      "temperature_celsius": 25.58,
+      "humidity_percent": 78.35,
+      "pH": 7.01,
+      "salinity_psu": 32.73
+    },
+    {
+      "timestamp": "2024-01-27 23:00:00",
+      "temperature_celsius": 26.24,
+      "humidity_percent": 73.05,
+      "pH": 7.17,
+      "salinity_psu": 33.68
+    },
+    {
+      "timestamp": "2024-01-28 00:00:00",
+      "temperature_celsius": 26.13,
+      "humidity_percent": 71.6,
+      "pH": 7.14,
+      "salinity_psu": 32.69
+    },
+    {
+      "timestamp": "2024-01-28 01:00:00",
+      "temperature_celsius": 24.92,
+      "humidity_percent": 79.89,
+      "pH": 6.91,
+      "salinity_psu": 33.75
+    },
+    {
+      "timestamp": "2024-01-28 02:00:00",
+      "temperature_celsius": 27.48,
+      "humidity_percent": 67.92,
+      "pH": 6.83,
+      "salinity_psu": 33.79
+    },
+    {
+      "timestamp": "2024-01-28 03:00:00",
+      "temperature_celsius": 25.84,
+      "humidity_percent": 71.44,
+      "pH": 6.68,
+      "salinity_psu": 33.29
+    },
+    {
+      "timestamp": "2024-01-28 04:00:00",
+      "temperature_celsius": 27.32,
+      "humidity_percent": 69.83,
+      "pH": 7.14,
+      "salinity_psu": 33.47
+    },
+    {
+      "timestamp": "2024-01-28 05:00:00",
+      "temperature_celsius": 28.07,
+      "humidity_percent": 67.48,
+      "pH": 6.99,
+      "salinity_psu": 32.03
+    },
+    {
+      "timestamp": "2024-01-28 06:00:00",
+      "temperature_celsius": 30.1,
+      "humidity_percent": 66.54,
+      "pH": 6.85,
+      "salinity_psu": 32.65
+    },
+    {
+      "timestamp": "2024-01-28 07:00:00",
+      "temperature_celsius": 30.87,
+      "humidity_percent": 70.97,
+      "pH": 6.95,
+      "salinity_psu": 33.19
+    },
+    {
+      "timestamp": "2024-01-28 08:00:00",
+      "temperature_celsius": 32.65,
+      "humidity_percent": 64.62,
+      "pH": 6.77,
+      "salinity_psu": 33.55
+    },
+    {
+      "timestamp": "2024-01-28 09:00:00",
+      "temperature_celsius": 31.89,
+      "humidity_percent": 64.7,
+      "pH": 6.91,
+      "salinity_psu": 33.93
+    },
+    {
+      "timestamp": "2024-01-28 10:00:00",
+      "temperature_celsius": 34.85,
+      "humidity_percent": 58.84,
+      "pH": 6.85,
+      "salinity_psu": 33.46
+    },
+    {
+      "timestamp": "2024-01-28 11:00:00",
+      "temperature_celsius": 34.25,
+      "humidity_percent": 68.53,
+      "pH": 6.87,
+      "salinity_psu": 33.54
+    },
+    {
+      "timestamp": "2024-01-28 12:00:00",
+      "temperature_celsius": 35.93,
+      "humidity_percent": 60.08,
+      "pH": 6.91,
+      "salinity_psu": 32.89
+    },
+    {
+      "timestamp": "2024-01-28 13:00:00",
+      "temperature_celsius": 32.96,
+      "humidity_percent": 59.94,
+      "pH": 7.03,
+      "salinity_psu": 32.83
+    },
+    {
+      "timestamp": "2024-01-28 14:00:00",
+      "temperature_celsius": 34.21,
+      "humidity_percent": 58.55,
+      "pH": 6.96,
+      "salinity_psu": 33.3
+    },
+    {
+      "timestamp": "2024-01-28 15:00:00",
+      "temperature_celsius": 31.93,
+      "humidity_percent": 64.94,
+      "pH": 7.09,
+      "salinity_psu": 33.97
+    },
+    {
+      "timestamp": "2024-01-28 16:00:00",
+      "temperature_celsius": 31.96,
+      "humidity_percent": 63.76,
+      "pH": 6.83,
+      "salinity_psu": 33.26
+    },
+    {
+      "timestamp": "2024-01-28 17:00:00",
+      "temperature_celsius": 31.51,
+      "humidity_percent": 60.89,
+      "pH": 7.17,
+      "salinity_psu": 34.28
+    },
+    {
+      "timestamp": "2024-01-28 18:00:00",
+      "temperature_celsius": 29.63,
+      "humidity_percent": 64.41,
+      "pH": 6.79,
+      "salinity_psu": 33.55
+    },
+    {
+      "timestamp": "2024-01-28 19:00:00",
+      "temperature_celsius": 29.76,
+      "humidity_percent": 68.36,
+      "pH": 7.04,
+      "salinity_psu": 33.18
+    },
+    {
+      "timestamp": "2024-01-28 20:00:00",
+      "temperature_celsius": 26.01,
+      "humidity_percent": 73.41,
+      "pH": 6.91,
+      "salinity_psu": 32.95
+    },
+    {
+      "timestamp": "2024-01-28 21:00:00",
+      "temperature_celsius": 27.51,
+      "humidity_percent": 73.9,
+      "pH": 6.9,
+      "salinity_psu": 33.18
+    },
+    {
+      "timestamp": "2024-01-28 22:00:00",
+      "temperature_celsius": 25.02,
+      "humidity_percent": 73.38,
+      "pH": 6.9,
+      "salinity_psu": 33.7
+    },
+    {
+      "timestamp": "2024-01-28 23:00:00",
+      "temperature_celsius": 26.26,
+      "humidity_percent": 73.05,
+      "pH": 6.74,
+      "salinity_psu": 33.61
+    },
+    {
+      "timestamp": "2024-01-29 00:00:00",
+      "temperature_celsius": 24.31,
+      "humidity_percent": 76.17,
+      "pH": 7.07,
+      "salinity_psu": 32.66
+    },
+    {
+      "timestamp": "2024-01-29 01:00:00",
+      "temperature_celsius": 25.75,
+      "humidity_percent": 72.54,
+      "pH": 7.08,
+      "salinity_psu": 33.9
+    },
+    {
+      "timestamp": "2024-01-29 02:00:00",
+      "temperature_celsius": 24.58,
+      "humidity_percent": 83.13,
+      "pH": 6.72,
+      "salinity_psu": 33.29
+    },
+    {
+      "timestamp": "2024-01-29 03:00:00",
+      "temperature_celsius": 27.95,
+      "humidity_percent": 71.47,
+      "pH": 6.89,
+      "salinity_psu": 34.16
+    },
+    {
+      "timestamp": "2024-01-29 04:00:00",
+      "temperature_celsius": 26.52,
+      "humidity_percent": 75.34,
+      "pH": 6.84,
+      "salinity_psu": 34.01
+    },
+    {
+      "timestamp": "2024-01-29 05:00:00",
+      "temperature_celsius": 28.25,
+      "humidity_percent": 71.33,
+      "pH": 7.14,
+      "salinity_psu": 33.61
+    },
+    {
+      "timestamp": "2024-01-29 06:00:00",
+      "temperature_celsius": 31.46,
+      "humidity_percent": 70.51,
+      "pH": 6.72,
+      "salinity_psu": 34.15
+    },
+    {
+      "timestamp": "2024-01-29 07:00:00",
+      "temperature_celsius": 31.92,
+      "humidity_percent": 63.42,
+      "pH": 6.88,
+      "salinity_psu": 34.0
+    },
+    {
+      "timestamp": "2024-01-29 08:00:00",
+      "temperature_celsius": 31.86,
+      "humidity_percent": 63.26,
+      "pH": 6.86,
+      "salinity_psu": 33.42
+    },
+    {
+      "timestamp": "2024-01-29 09:00:00",
+      "temperature_celsius": 34.51,
+      "humidity_percent": 63.6,
+      "pH": 6.83,
+      "salinity_psu": 34.71
+    },
+    {
+      "timestamp": "2024-01-29 10:00:00",
+      "temperature_celsius": 34.41,
+      "humidity_percent": 70.72,
+      "pH": 6.92,
+      "salinity_psu": 33.81
+    },
+    {
+      "timestamp": "2024-01-29 11:00:00",
+      "temperature_celsius": 35.06,
+      "humidity_percent": 66.58,
+      "pH": 6.89,
+      "salinity_psu": 33.62
+    },
+    {
+      "timestamp": "2024-01-29 12:00:00",
+      "temperature_celsius": 35.51,
+      "humidity_percent": 56.67,
+      "pH": 6.88,
+      "salinity_psu": 33.79
+    },
+    {
+      "timestamp": "2024-01-29 13:00:00",
+      "temperature_celsius": 34.46,
+      "humidity_percent": 59.89,
+      "pH": 7.33,
+      "salinity_psu": 33.19
+    },
+    {
+      "timestamp": "2024-01-29 14:00:00",
+      "temperature_celsius": 34.15,
+      "humidity_percent": 62.44,
+      "pH": 7.16,
+      "salinity_psu": 33.99
+    },
+    {
+      "timestamp": "2024-01-29 15:00:00",
+      "temperature_celsius": 32.62,
+      "humidity_percent": 63.36,
+      "pH": 7.06,
+      "salinity_psu": 34.58
+    },
+    {
+      "timestamp": "2024-01-29 16:00:00",
+      "temperature_celsius": 29.92,
+      "humidity_percent": 66.5,
+      "pH": 6.87,
+      "salinity_psu": 33.56
+    },
+    {
+      "timestamp": "2024-01-29 17:00:00",
+      "temperature_celsius": 30.34,
+      "humidity_percent": 67.04,
+      "pH": 7.03,
+      "salinity_psu": 33.81
+    },
+    {
+      "timestamp": "2024-01-29 18:00:00",
+      "temperature_celsius": 29.98,
+      "humidity_percent": 64.64,
+      "pH": 7.01,
+      "salinity_psu": 34.16
+    },
+    {
+      "timestamp": "2024-01-29 19:00:00",
+      "temperature_celsius": 29.51,
+      "humidity_percent": 72.37,
+      "pH": 7.15,
+      "salinity_psu": 34.48
+    },
+    {
+      "timestamp": "2024-01-29 20:00:00",
+      "temperature_celsius": 27.42,
+      "humidity_percent": 72.31,
+      "pH": 6.94,
+      "salinity_psu": 33.85
+    },
+    {
+      "timestamp": "2024-01-29 21:00:00",
+      "temperature_celsius": 27.31,
+      "humidity_percent": 65.37,
+      "pH": 7.06,
+      "salinity_psu": 33.86
+    },
+    {
+      "timestamp": "2024-01-29 22:00:00",
+      "temperature_celsius": 25.17,
+      "humidity_percent": 76.48,
+      "pH": 7.08,
+      "salinity_psu": 34.13
+    },
+    {
+      "timestamp": "2024-01-29 23:00:00",
+      "temperature_celsius": 24.77,
+      "humidity_percent": 76.66,
+      "pH": 7.2,
+      "salinity_psu": 35.19
+    },
+    {
+      "timestamp": "2024-01-30 00:00:00",
+      "temperature_celsius": 25.12,
+      "humidity_percent": 72.47,
+      "pH": 7.15,
+      "salinity_psu": 33.22
+    },
+    {
+      "timestamp": "2024-01-30 01:00:00",
+      "temperature_celsius": 25.09,
+      "humidity_percent": 74.08,
+      "pH": 6.99,
+      "salinity_psu": 34.34
+    },
+    {
+      "timestamp": "2024-01-30 02:00:00",
+      "temperature_celsius": 24.62,
+      "humidity_percent": 73.31,
+      "pH": 7.08,
+      "salinity_psu": 33.35
+    },
+    {
+      "timestamp": "2024-01-30 03:00:00",
+      "temperature_celsius": 24.85,
+      "humidity_percent": 75.06,
+      "pH": 7.1,
+      "salinity_psu": 34.95
+    },
+    {
+      "timestamp": "2024-01-30 04:00:00",
+      "temperature_celsius": 28.35,
+      "humidity_percent": 69.34,
+      "pH": 7.0,
+      "salinity_psu": 35.19
+    },
+    {
+      "timestamp": "2024-01-30 05:00:00",
+      "temperature_celsius": 28.21,
+      "humidity_percent": 78.46,
+      "pH": 7.04,
+      "salinity_psu": 33.75
+    },
+    {
+      "timestamp": "2024-01-30 06:00:00",
+      "temperature_celsius": 29.0,
+      "humidity_percent": 62.07,
+      "pH": 6.98,
+      "salinity_psu": 34.76
+    },
+    {
+      "timestamp": "2024-01-30 07:00:00",
+      "temperature_celsius": 30.92,
+      "humidity_percent": 65.04,
+      "pH": 7.12,
+      "salinity_psu": 35.18
+    },
+    {
+      "timestamp": "2024-01-30 08:00:00",
+      "temperature_celsius": 33.46,
+      "humidity_percent": 67.06,
+      "pH": 7.42,
+      "salinity_psu": 34.11
+    },
+    {
+      "timestamp": "2024-01-30 09:00:00",
+      "temperature_celsius": 34.56,
+      "humidity_percent": 65.92,
+      "pH": 7.09,
+      "salinity_psu": 34.4
+    },
+    {
+      "timestamp": "2024-01-30 10:00:00",
+      "temperature_celsius": 35.82,
+      "humidity_percent": 58.6,
+      "pH": 7.18,
+      "salinity_psu": 34.49
+    },
+    {
+      "timestamp": "2024-01-30 11:00:00",
+      "temperature_celsius": 33.59,
+      "humidity_percent": 61.95,
+      "pH": 6.95,
+      "salinity_psu": 35.42
+    },
+    {
+      "timestamp": "2024-01-30 12:00:00",
+      "temperature_celsius": 34.42,
+      "humidity_percent": 62.12,
+      "pH": 7.05,
+      "salinity_psu": 33.95
+    },
+    {
+      "timestamp": "2024-01-30 13:00:00",
+      "temperature_celsius": 33.18,
+      "humidity_percent": 59.92,
+      "pH": 7.17,
+      "salinity_psu": 33.21
+    },
+    {
+      "timestamp": "2024-01-30 14:00:00",
+      "temperature_celsius": 34.38,
+      "humidity_percent": 59.43,
+      "pH": 6.97,
+      "salinity_psu": 34.97
+    },
+    {
+      "timestamp": "2024-01-30 15:00:00",
+      "temperature_celsius": 33.92,
+      "humidity_percent": 63.27,
+      "pH": 7.17,
+      "salinity_psu": 34.13
+    },
+    {
+      "timestamp": "2024-01-30 16:00:00",
+      "temperature_celsius": 33.48,
+      "humidity_percent": 60.99,
+      "pH": 6.92,
+      "salinity_psu": 34.98
+    },
+    {
+      "timestamp": "2024-01-30 17:00:00",
+      "temperature_celsius": 30.06,
+      "humidity_percent": 66.57,
+      "pH": 6.69,
+      "salinity_psu": 34.77
+    },
+    {
+      "timestamp": "2024-01-30 18:00:00",
+      "temperature_celsius": 30.35,
+      "humidity_percent": 67.51,
+      "pH": 7.03,
+      "salinity_psu": 35.13
+    },
+    {
+      "timestamp": "2024-01-30 19:00:00",
+      "temperature_celsius": 28.65,
+      "humidity_percent": 62.0,
+      "pH": 7.12,
+      "salinity_psu": 34.42
+    },
+    {
+      "timestamp": "2024-01-30 20:00:00",
+      "temperature_celsius": 28.32,
+      "humidity_percent": 64.84,
+      "pH": 7.13,
+      "salinity_psu": 34.34
+    },
+    {
+      "timestamp": "2024-01-30 21:00:00",
+      "temperature_celsius": 25.14,
+      "humidity_percent": 72.15,
+      "pH": 7.27,
+      "salinity_psu": 35.14
+    },
+    {
+      "timestamp": "2024-01-30 22:00:00",
+      "temperature_celsius": 26.92,
+      "humidity_percent": 68.54,
+      "pH": 7.35,
+      "salinity_psu": 34.19
+    },
+    {
+      "timestamp": "2024-01-30 23:00:00",
+      "temperature_celsius": 25.8,
+      "humidity_percent": 72.72,
+      "pH": 7.38,
+      "salinity_psu": 36.66
+    }
+  ]
+}
