@@ -846,6 +846,20 @@
       }
 
       document.getElementById('add-material-info-btn').addEventListener('click', openModal);
+      var sidebarSimulate = document.getElementById('sidebar-simulate-24h');
+      if (sidebarSimulate) {
+        sidebarSimulate.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.getElementById('simulate-btn').click();
+        });
+      }
+      var sidebarAddMaterial = document.getElementById('sidebar-add-material');
+      if (sidebarAddMaterial) {
+        sidebarAddMaterial.addEventListener('click', function (e) {
+          e.preventDefault();
+          openModal();
+        });
+      }
       document.getElementById('material-info-modal-close').addEventListener('click', closeModal);
       document.getElementById('material-info-modal-cancel').addEventListener('click', closeModal);
       modal.addEventListener('click', function (e) {

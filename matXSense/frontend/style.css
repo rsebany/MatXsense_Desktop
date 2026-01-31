@@ -73,22 +73,34 @@ body {
 
 .login-card .tagline {
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.3;
   margin-top: 2px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .login-card .logo-icon {
   font-size: 42px;
   color: var(--accent);
-  margin: 0 auto 4px;
+  margin: 0 auto 2px;
 }
 .login-card .logo-icon .logo-img {
-  width: 100px; /* increased login logo size */
+  width: 160px;
   height: auto;
   display: block;
-  margin: 0 auto 12px;
+  margin: 0 auto 8px;
+}
+
+.login-card .logo-icon span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 0 0 20px;
 }
 
 .login-card label {
@@ -155,15 +167,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  margin-bottom: 25px;
+  padding: 10px 0;
+  margin-bottom: 5px;
   border-bottom: 1px solid var(--border);
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 
 }
 
@@ -178,7 +190,7 @@ body {
 
 .logo-icon { font-size: 72px; color: var(--accent); }
 .logo-icon .logo-img {
-  width: 100px;
+  width: 200px;
   height: auto;
   display: block;
 }
@@ -743,7 +755,11 @@ body {
 }
 
 /* Alerts */
-.alerts-panel { grid-column: span 12; }
+.alerts-panel {
+  grid-column: span 12;
+  border-radius: 14px 14px 14px 14px; /* top-left top-right bottom-right bottom-left */
+  border: 2px solid var(--amber); /* orange top, right, bottom, left */
+}
 
 .alerts-container { display: flex; flex-wrap: wrap; gap: 15px; }
 
